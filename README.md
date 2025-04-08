@@ -17,3 +17,4 @@
   ```bash
   $ python onnx_benchmark.py --onnx_model ./models/yolov8n.onnx --device cpu
   ```
+  > * **Ryzen AI 9 Supported Device**: `cpu`, `igpu`, `npu`
