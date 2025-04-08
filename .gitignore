@@ -1,0 +1,3 @@
+models/yolo12n.onnx
+models/yolov5nu.onnx
+models/yolov8n.onnx
