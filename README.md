@@ -1,5 +1,9 @@
 # The Best Implementation for Ryzen AI
 
+<div align="center">
+<img src="https://github.com/R300-AI/AMD-ryzen-demo/blob/main/docs/images/chipset.png" width=360"/>
+</div>
+
 ## Requirements
 * A **Ryzen AI PC** with **Windows OS**.
 * Download and Install [Anaconda](https://www.anaconda.com/download) and run `conda init` command in terminal.
