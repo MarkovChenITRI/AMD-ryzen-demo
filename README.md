@@ -22,7 +22,7 @@ Ryzen AI provides acceleration options for ONNX models using CPU, iGPU, and NPU,
 
 ### ONNX Benchmarks
 
-The ONNX benchmarks leverage different execution providers to drive various hardware components on Ryzen AI. These include CPU Execution Provider (EP) for Ryzen CPU, DirectML Execution Provider for Radeon iGPU, and VITA IA Execution Provider for HX NPU. You can run the benchmark using the following command:
+The ONNX benchmarks leverage different execution providers to drive various hardware components on Ryzen AI. These include CPU Execution Provider (EP) for Ryzen CPU, DirectML Execution Provider for Radeon iGPU, and Vitis IA Execution Provider for HX NPU. You can run the benchmark using the following command:
   
   ```bash
   $ python onnx_benchmark.py --onnx_model ./models/yolo11n.onnx --device cpu
