@@ -34,4 +34,4 @@ The ONNX benchmarks use different execution providers to drive Ryzen AI hardware
   > -  `npu` (for VPU)
 
 **【NOTE】** Replace `./models/yolo11n.onnx` with your ONNX model to test performance on the specified hardware.
-**【NOTE】** It is recommended to use ONNX models with `opset_version=13` for optimal compatibility and performance.
+**【NOTE】** It is recommended to use ONNX models with `opset_version=13`.
