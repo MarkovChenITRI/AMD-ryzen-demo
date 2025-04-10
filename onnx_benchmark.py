@@ -58,6 +58,18 @@ elif args.device == 'igpu':
     print('----------------------------------------')
 
 elif args.device == 'npu':
+    from quark.onnx.quantization.config import Config, get_default_config
+    from quark.onnx import ModelQuantizer
+
+    quant_config = get_default_config("XINT8")
+    config = Config(global_quant_config=quant_config)
+    config.global_quant_config.extra_options["UseRandomData"] = True
+    quantizer = ModelQuantizer(config)
+    quant_model = quantizer.quantize_model(model_input = onnx_model_path,
+                                        model_output = onnx_model_path.replace('.onnx', '_quant.onnx'),
+                                        calibration_data_path = None)
+    onnx_model_path = onnx_model_path.replace('.onnx', '_quant.onnx')
+
     command = r'pnputil /enum-devices /bus PCI /deviceids '
     process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     stdout, stderr = process.communicate()
@@ -103,11 +115,12 @@ elif args.device == 'npu':
 
     inputs_details = npu_session.get_inputs()
     inputs = np.random.rand(*inputs_details[0].shape).astype(np.float32)
-    start = time.time()
+    
     for _ in range(args.iteration):
+        start = time.time()
         outputs = npu_session.run(None, {npu_session.get_inputs()[0].name: inputs})
-    end = time.time()
-    inference_time = np.round((end - start) / args.iteration * 1000, 2)
+        end = time.time()
+    inference_time = np.round((end - start) * 1000, 2)
         
     print('----------------------------------------')
     print('NPU Inference time: ' + str(inference_time) + " ms")

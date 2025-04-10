@@ -1,0 +1,1894 @@
+{
+  "events": [
+    {
+      "id": 1161216,
+      "name": "pdi_subgraph_0",
+      "op_type": "PDI",
+      "start": true,
+      "type": "pdi_graph"
+    },
+    {
+      "id": 112640,
+      "name": "pdi_subgraph_0",
+      "op_type": "PDI",
+      "start": false,
+      "type": "pdi_graph"
+    },
+    {
+      "id": 3258368,
+      "name": "subgraph_(images)_upload_0",
+      "op_type": "upload",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209792,
+      "name": "subgraph_(images)_upload_0",
+      "op_type": "upload",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258369,
+      "name": "subgraph_(images_DequantizeLinear_Output_vaip_1)",
+      "op_type": "transpose-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209793,
+      "name": "subgraph_(images_DequantizeLinear_Output_vaip_1)",
+      "op_type": "transpose-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258370,
+      "name": "subgraph_(/model.0/conv/Conv_output_0_vaip_3)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209794,
+      "name": "subgraph_(/model.0/conv/Conv_output_0_vaip_3)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258371,
+      "name": "subgraph_(/model.1/conv/Conv_output_0_vaip_6)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209795,
+      "name": "subgraph_(/model.1/conv/Conv_output_0_vaip_6)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258372,
+      "name": "subgraph_(/model.2/cv1/conv/Conv_output_0_vaip_9)_strided_slice_(0_0_0_16)_(1_160_160_32)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209796,
+      "name": "subgraph_(/model.2/cv1/conv/Conv_output_0_vaip_9)_strided_slice_(0_0_0_16)_(1_160_160_32)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258373,
+      "name": "subgraph_(/model.2/m.0/cv1/conv/Conv_output_0_vaip_12)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209797,
+      "name": "subgraph_(/model.2/m.0/cv1/conv/Conv_output_0_vaip_12)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258374,
+      "name": "subgraph_(/model.2/m.0/cv2/conv/Conv_output_0_vaip_15)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209798,
+      "name": "subgraph_(/model.2/m.0/cv2/conv/Conv_output_0_vaip_15)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258375,
+      "name": "subgraph_(/model.2/m.0/Add_output_0_vaip_247)",
+      "op_type": "eltwise-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209799,
+      "name": "subgraph_(/model.2/m.0/Add_output_0_vaip_247)",
+      "op_type": "eltwise-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258376,
+      "name": "subgraph_(/model.2/cv1/conv/Conv_output_0_vaip_9)_strided_slice_(0_0_0_0)_(1_160_160_16)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209800,
+      "name": "subgraph_(/model.2/cv1/conv/Conv_output_0_vaip_9)_strided_slice_(0_0_0_0)_(1_160_160_16)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258377,
+      "name": "subgraph_(/model.2/Concat_output_0_vaip_252)",
+      "op_type": "concat-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209801,
+      "name": "subgraph_(/model.2/Concat_output_0_vaip_252)",
+      "op_type": "concat-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258378,
+      "name": "subgraph_(/model.2/cv2/conv/Conv_output_0_vaip_18)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209802,
+      "name": "subgraph_(/model.2/cv2/conv/Conv_output_0_vaip_18)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258379,
+      "name": "subgraph_(/model.3/conv/Conv_output_0_vaip_21)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209803,
+      "name": "subgraph_(/model.3/conv/Conv_output_0_vaip_21)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258380,
+      "name": "subgraph_(/model.4/cv1/conv/Conv_output_0_vaip_24)_strided_slice_(0_0_0_32)_(1_80_80_64)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209804,
+      "name": "subgraph_(/model.4/cv1/conv/Conv_output_0_vaip_24)_strided_slice_(0_0_0_32)_(1_80_80_64)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258381,
+      "name": "subgraph_(/model.4/m.0/cv1/conv/Conv_output_0_vaip_27)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209805,
+      "name": "subgraph_(/model.4/m.0/cv1/conv/Conv_output_0_vaip_27)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258382,
+      "name": "subgraph_(/model.4/m.0/cv2/conv/Conv_output_0_vaip_30)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209806,
+      "name": "subgraph_(/model.4/m.0/cv2/conv/Conv_output_0_vaip_30)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258383,
+      "name": "subgraph_(/model.4/m.0/Add_output_0_vaip_297)",
+      "op_type": "eltwise-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209807,
+      "name": "subgraph_(/model.4/m.0/Add_output_0_vaip_297)",
+      "op_type": "eltwise-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258384,
+      "name": "subgraph_(/model.4/m.1/cv1/conv/Conv_output_0_vaip_33)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209808,
+      "name": "subgraph_(/model.4/m.1/cv1/conv/Conv_output_0_vaip_33)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258385,
+      "name": "subgraph_(/model.4/m.1/cv2/conv/Conv_output_0_vaip_36)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209809,
+      "name": "subgraph_(/model.4/m.1/cv2/conv/Conv_output_0_vaip_36)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258386,
+      "name": "subgraph_(/model.4/m.1/Add_output_0_vaip_318)",
+      "op_type": "eltwise-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209810,
+      "name": "subgraph_(/model.4/m.1/Add_output_0_vaip_318)",
+      "op_type": "eltwise-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258387,
+      "name": "subgraph_(/model.4/cv1/conv/Conv_output_0_vaip_24)_strided_slice_(0_0_0_0)_(1_80_80_32)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209811,
+      "name": "subgraph_(/model.4/cv1/conv/Conv_output_0_vaip_24)_strided_slice_(0_0_0_0)_(1_80_80_32)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3259391,
+      "name": "subgraph_(/model.4/Concat_output_0_vaip_323)",
+      "op_type": "concat-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2210815,
+      "name": "subgraph_(/model.4/Concat_output_0_vaip_323)",
+      "op_type": "concat-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258388,
+      "name": "subgraph_(/model.4/cv2/conv/Conv_output_0_vaip_39)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209812,
+      "name": "subgraph_(/model.4/cv2/conv/Conv_output_0_vaip_39)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258389,
+      "name": "subgraph_(/model.5/conv/Conv_output_0_vaip_42)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209813,
+      "name": "subgraph_(/model.5/conv/Conv_output_0_vaip_42)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258390,
+      "name": "subgraph_(/model.6/cv1/conv/Conv_output_0_vaip_45)_strided_slice_(0_0_0_64)_(1_40_40_128)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209814,
+      "name": "subgraph_(/model.6/cv1/conv/Conv_output_0_vaip_45)_strided_slice_(0_0_0_64)_(1_40_40_128)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258391,
+      "name": "subgraph_(/model.6/m.0/cv1/conv/Conv_output_0_vaip_48)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209815,
+      "name": "subgraph_(/model.6/m.0/cv1/conv/Conv_output_0_vaip_48)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258392,
+      "name": "subgraph_(/model.6/m.0/cv2/conv/Conv_output_0_vaip_51)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209816,
+      "name": "subgraph_(/model.6/m.0/cv2/conv/Conv_output_0_vaip_51)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258393,
+      "name": "subgraph_(/model.6/m.0/Add_output_0_vaip_368)",
+      "op_type": "eltwise-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209817,
+      "name": "subgraph_(/model.6/m.0/Add_output_0_vaip_368)",
+      "op_type": "eltwise-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258394,
+      "name": "subgraph_(/model.6/m.1/cv1/conv/Conv_output_0_vaip_54)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209818,
+      "name": "subgraph_(/model.6/m.1/cv1/conv/Conv_output_0_vaip_54)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258395,
+      "name": "subgraph_(/model.6/m.1/cv2/conv/Conv_output_0_vaip_57)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209819,
+      "name": "subgraph_(/model.6/m.1/cv2/conv/Conv_output_0_vaip_57)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258396,
+      "name": "subgraph_(/model.6/m.1/Add_output_0_vaip_389)",
+      "op_type": "eltwise-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209820,
+      "name": "subgraph_(/model.6/m.1/Add_output_0_vaip_389)",
+      "op_type": "eltwise-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258397,
+      "name": "subgraph_(/model.6/cv1/conv/Conv_output_0_vaip_45)_strided_slice_(0_0_0_0)_(1_40_40_64)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209821,
+      "name": "subgraph_(/model.6/cv1/conv/Conv_output_0_vaip_45)_strided_slice_(0_0_0_0)_(1_40_40_64)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3259391,
+      "name": "subgraph_(/model.6/Concat_output_0_vaip_394)",
+      "op_type": "concat-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2210815,
+      "name": "subgraph_(/model.6/Concat_output_0_vaip_394)",
+      "op_type": "concat-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258398,
+      "name": "subgraph_(/model.6/cv2/conv/Conv_output_0_vaip_60)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209822,
+      "name": "subgraph_(/model.6/cv2/conv/Conv_output_0_vaip_60)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258399,
+      "name": "subgraph_(/model.7/conv/Conv_output_0_vaip_63)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209823,
+      "name": "subgraph_(/model.7/conv/Conv_output_0_vaip_63)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258400,
+      "name": "subgraph_(/model.8/cv1/conv/Conv_output_0_vaip_66)_strided_slice_(0_0_0_128)_(1_20_20_256)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209824,
+      "name": "subgraph_(/model.8/cv1/conv/Conv_output_0_vaip_66)_strided_slice_(0_0_0_128)_(1_20_20_256)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258401,
+      "name": "subgraph_(/model.8/m.0/cv1/conv/Conv_output_0_vaip_69)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209825,
+      "name": "subgraph_(/model.8/m.0/cv1/conv/Conv_output_0_vaip_69)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258402,
+      "name": "subgraph_(/model.8/m.0/cv2/conv/Conv_output_0_vaip_72)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209826,
+      "name": "subgraph_(/model.8/m.0/cv2/conv/Conv_output_0_vaip_72)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258403,
+      "name": "subgraph_(/model.8/m.0/Add_output_0_vaip_440)",
+      "op_type": "eltwise-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209827,
+      "name": "subgraph_(/model.8/m.0/Add_output_0_vaip_440)",
+      "op_type": "eltwise-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258404,
+      "name": "subgraph_(/model.8/cv1/conv/Conv_output_0_vaip_66)_strided_slice_(0_0_0_0)_(1_20_20_128)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209828,
+      "name": "subgraph_(/model.8/cv1/conv/Conv_output_0_vaip_66)_strided_slice_(0_0_0_0)_(1_20_20_128)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3259391,
+      "name": "subgraph_(/model.8/Concat_output_0_vaip_445)",
+      "op_type": "concat-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2210815,
+      "name": "subgraph_(/model.8/Concat_output_0_vaip_445)",
+      "op_type": "concat-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258405,
+      "name": "subgraph_(/model.8/cv2/conv/Conv_output_0_vaip_75)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209829,
+      "name": "subgraph_(/model.8/cv2/conv/Conv_output_0_vaip_75)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258406,
+      "name": "subgraph_(/model.9/cv1/conv/Conv_output_0_vaip_78)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209830,
+      "name": "subgraph_(/model.9/cv1/conv/Conv_output_0_vaip_78)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258407,
+      "name": "subgraph_(/model.9/m/MaxPool_output_0_DequantizeLinear_Output_vaip_463)",
+      "op_type": "pool-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209831,
+      "name": "subgraph_(/model.9/m/MaxPool_output_0_DequantizeLinear_Output_vaip_463)",
+      "op_type": "pool-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258408,
+      "name": "subgraph_(/model.9/m_1/MaxPool_output_0_DequantizeLinear_Output_vaip_467)",
+      "op_type": "pool-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209832,
+      "name": "subgraph_(/model.9/m_1/MaxPool_output_0_DequantizeLinear_Output_vaip_467)",
+      "op_type": "pool-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258409,
+      "name": "subgraph_(/model.9/m_2/MaxPool_output_0_DequantizeLinear_Output_vaip_468)",
+      "op_type": "pool-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209833,
+      "name": "subgraph_(/model.9/m_2/MaxPool_output_0_DequantizeLinear_Output_vaip_468)",
+      "op_type": "pool-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3259391,
+      "name": "subgraph_(/model.9/Concat_output_0_vaip_469)",
+      "op_type": "concat-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2210815,
+      "name": "subgraph_(/model.9/Concat_output_0_vaip_469)",
+      "op_type": "concat-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258410,
+      "name": "subgraph_(/model.9/cv2/conv/Conv_output_0_vaip_87)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209834,
+      "name": "subgraph_(/model.9/cv2/conv/Conv_output_0_vaip_87)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258411,
+      "name": "subgraph_(/model.10/Resize_output_0_vaip_89)",
+      "op_type": "upsample-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209835,
+      "name": "subgraph_(/model.10/Resize_output_0_vaip_89)",
+      "op_type": "upsample-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3259391,
+      "name": "subgraph_(/model.11/Concat_output_0_vaip_482)",
+      "op_type": "concat-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2210815,
+      "name": "subgraph_(/model.11/Concat_output_0_vaip_482)",
+      "op_type": "concat-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258412,
+      "name": "subgraph_(/model.12/cv1/conv/Conv_output_0_vaip_92)_strided_slice_(0_0_0_64)_(1_40_40_128)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209836,
+      "name": "subgraph_(/model.12/cv1/conv/Conv_output_0_vaip_92)_strided_slice_(0_0_0_64)_(1_40_40_128)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258413,
+      "name": "subgraph_(/model.12/m.0/cv1/conv/Conv_output_0_vaip_95)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209837,
+      "name": "subgraph_(/model.12/m.0/cv1/conv/Conv_output_0_vaip_95)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258414,
+      "name": "subgraph_(/model.12/m.0/cv2/conv/Conv_output_0_vaip_98)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209838,
+      "name": "subgraph_(/model.12/m.0/cv2/conv/Conv_output_0_vaip_98)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258415,
+      "name": "subgraph_(/model.12/cv1/conv/Conv_output_0_vaip_92)_strided_slice_(0_0_0_0)_(1_40_40_64)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209839,
+      "name": "subgraph_(/model.12/cv1/conv/Conv_output_0_vaip_92)_strided_slice_(0_0_0_0)_(1_40_40_64)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3259391,
+      "name": "subgraph_(/model.12/Concat_output_0_vaip_514)",
+      "op_type": "concat-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2210815,
+      "name": "subgraph_(/model.12/Concat_output_0_vaip_514)",
+      "op_type": "concat-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258416,
+      "name": "subgraph_(/model.12/cv2/conv/Conv_output_0_vaip_101)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209840,
+      "name": "subgraph_(/model.12/cv2/conv/Conv_output_0_vaip_101)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258417,
+      "name": "subgraph_(/model.13/Resize_output_0_vaip_103)",
+      "op_type": "upsample-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209841,
+      "name": "subgraph_(/model.13/Resize_output_0_vaip_103)",
+      "op_type": "upsample-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3259391,
+      "name": "subgraph_(/model.14/Concat_output_0_vaip_527)",
+      "op_type": "concat-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2210815,
+      "name": "subgraph_(/model.14/Concat_output_0_vaip_527)",
+      "op_type": "concat-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258418,
+      "name": "subgraph_(/model.15/cv1/conv/Conv_output_0_vaip_106)_strided_slice_(0_0_0_32)_(1_80_80_64)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209842,
+      "name": "subgraph_(/model.15/cv1/conv/Conv_output_0_vaip_106)_strided_slice_(0_0_0_32)_(1_80_80_64)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258419,
+      "name": "subgraph_(/model.15/m.0/cv1/conv/Conv_output_0_vaip_109)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209843,
+      "name": "subgraph_(/model.15/m.0/cv1/conv/Conv_output_0_vaip_109)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258420,
+      "name": "subgraph_(/model.15/m.0/cv2/conv/Conv_output_0_vaip_112)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209844,
+      "name": "subgraph_(/model.15/m.0/cv2/conv/Conv_output_0_vaip_112)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258421,
+      "name": "subgraph_(/model.15/cv1/conv/Conv_output_0_vaip_106)_strided_slice_(0_0_0_0)_(1_80_80_32)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209845,
+      "name": "subgraph_(/model.15/cv1/conv/Conv_output_0_vaip_106)_strided_slice_(0_0_0_0)_(1_80_80_32)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3259391,
+      "name": "subgraph_(/model.15/Concat_output_0_vaip_559)",
+      "op_type": "concat-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2210815,
+      "name": "subgraph_(/model.15/Concat_output_0_vaip_559)",
+      "op_type": "concat-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258422,
+      "name": "subgraph_(/model.15/cv2/conv/Conv_output_0_vaip_115)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209846,
+      "name": "subgraph_(/model.15/cv2/conv/Conv_output_0_vaip_115)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258423,
+      "name": "subgraph_(/model.22/cv3.0/cv3.0.0/conv/Conv_output_0_vaip_184)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209847,
+      "name": "subgraph_(/model.22/cv3.0/cv3.0.0/conv/Conv_output_0_vaip_184)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258424,
+      "name": "subgraph_(/model.22/cv3.0/cv3.0.1/conv/Conv_output_0_vaip_187)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209848,
+      "name": "subgraph_(/model.22/cv3.0/cv3.0.1/conv/Conv_output_0_vaip_187)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258425,
+      "name": "subgraph_(/model.22/cv3.0/cv3.0.2/Conv_output_0_vaip_190)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209849,
+      "name": "subgraph_(/model.22/cv3.0/cv3.0.2/Conv_output_0_vaip_190)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258426,
+      "name": "subgraph_(/model.22/cv2.0/cv2.0.0/conv/Conv_output_0_vaip_193)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209850,
+      "name": "subgraph_(/model.22/cv2.0/cv2.0.0/conv/Conv_output_0_vaip_193)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258427,
+      "name": "subgraph_(/model.22/cv2.0/cv2.0.1/conv/Conv_output_0_vaip_196)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209851,
+      "name": "subgraph_(/model.22/cv2.0/cv2.0.1/conv/Conv_output_0_vaip_196)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258428,
+      "name": "subgraph_(/model.22/cv2.0/cv2.0.2/Conv_output_0_vaip_199)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209852,
+      "name": "subgraph_(/model.22/cv2.0/cv2.0.2/Conv_output_0_vaip_199)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3259391,
+      "name": "subgraph_(/model.22/Concat_output_0_vaip_780)",
+      "op_type": "concat-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2210815,
+      "name": "subgraph_(/model.22/Concat_output_0_vaip_780)",
+      "op_type": "concat-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258429,
+      "name": "subgraph_(/model.22/Concat_output_0_DequantizeLinear_Output)",
+      "op_type": "transpose-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209853,
+      "name": "subgraph_(/model.22/Concat_output_0_DequantizeLinear_Output)",
+      "op_type": "transpose-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258430,
+      "name": "subgraph_(/model.22/Reshape_output_0)",
+      "op_type": "reshape-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209854,
+      "name": "subgraph_(/model.22/Reshape_output_0)",
+      "op_type": "reshape-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258431,
+      "name": "subgraph_(/model.16/conv/Conv_output_0_vaip_118)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209855,
+      "name": "subgraph_(/model.16/conv/Conv_output_0_vaip_118)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3259391,
+      "name": "subgraph_(/model.17/Concat_output_0_vaip_577)",
+      "op_type": "concat-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2210815,
+      "name": "subgraph_(/model.17/Concat_output_0_vaip_577)",
+      "op_type": "concat-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258432,
+      "name": "subgraph_(/model.18/cv1/conv/Conv_output_0_vaip_121)_strided_slice_(0_0_0_64)_(1_40_40_128)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209856,
+      "name": "subgraph_(/model.18/cv1/conv/Conv_output_0_vaip_121)_strided_slice_(0_0_0_64)_(1_40_40_128)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258433,
+      "name": "subgraph_(/model.18/m.0/cv1/conv/Conv_output_0_vaip_124)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209857,
+      "name": "subgraph_(/model.18/m.0/cv1/conv/Conv_output_0_vaip_124)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258434,
+      "name": "subgraph_(/model.18/m.0/cv2/conv/Conv_output_0_vaip_127)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209858,
+      "name": "subgraph_(/model.18/m.0/cv2/conv/Conv_output_0_vaip_127)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258435,
+      "name": "subgraph_(/model.18/cv1/conv/Conv_output_0_vaip_121)_strided_slice_(0_0_0_0)_(1_40_40_64)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209859,
+      "name": "subgraph_(/model.18/cv1/conv/Conv_output_0_vaip_121)_strided_slice_(0_0_0_0)_(1_40_40_64)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3259391,
+      "name": "subgraph_(/model.18/Concat_output_0_vaip_609)",
+      "op_type": "concat-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2210815,
+      "name": "subgraph_(/model.18/Concat_output_0_vaip_609)",
+      "op_type": "concat-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258436,
+      "name": "subgraph_(/model.18/cv2/conv/Conv_output_0_vaip_130)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209860,
+      "name": "subgraph_(/model.18/cv2/conv/Conv_output_0_vaip_130)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258437,
+      "name": "subgraph_(/model.22/cv3.1/cv3.1.0/conv/Conv_output_0_vaip_166)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209861,
+      "name": "subgraph_(/model.22/cv3.1/cv3.1.0/conv/Conv_output_0_vaip_166)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258438,
+      "name": "subgraph_(/model.22/cv3.1/cv3.1.1/conv/Conv_output_0_vaip_169)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209862,
+      "name": "subgraph_(/model.22/cv3.1/cv3.1.1/conv/Conv_output_0_vaip_169)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258439,
+      "name": "subgraph_(/model.22/cv3.1/cv3.1.2/Conv_output_0_vaip_172)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209863,
+      "name": "subgraph_(/model.22/cv3.1/cv3.1.2/Conv_output_0_vaip_172)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258440,
+      "name": "subgraph_(/model.22/cv2.1/cv2.1.0/conv/Conv_output_0_vaip_175)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209864,
+      "name": "subgraph_(/model.22/cv2.1/cv2.1.0/conv/Conv_output_0_vaip_175)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258441,
+      "name": "subgraph_(/model.22/cv2.1/cv2.1.1/conv/Conv_output_0_vaip_178)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209865,
+      "name": "subgraph_(/model.22/cv2.1/cv2.1.1/conv/Conv_output_0_vaip_178)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258442,
+      "name": "subgraph_(/model.22/cv2.1/cv2.1.2/Conv_output_0_vaip_181)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209866,
+      "name": "subgraph_(/model.22/cv2.1/cv2.1.2/Conv_output_0_vaip_181)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3259391,
+      "name": "subgraph_(/model.22/Concat_1_output_0_vaip_742)",
+      "op_type": "concat-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2210815,
+      "name": "subgraph_(/model.22/Concat_1_output_0_vaip_742)",
+      "op_type": "concat-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258443,
+      "name": "subgraph_(/model.22/Concat_1_output_0_DequantizeLinear_Output)",
+      "op_type": "transpose-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209867,
+      "name": "subgraph_(/model.22/Concat_1_output_0_DequantizeLinear_Output)",
+      "op_type": "transpose-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258444,
+      "name": "subgraph_(/model.22/Reshape_1_output_0)",
+      "op_type": "reshape-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209868,
+      "name": "subgraph_(/model.22/Reshape_1_output_0)",
+      "op_type": "reshape-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258445,
+      "name": "subgraph_(/model.19/conv/Conv_output_0_vaip_133)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209869,
+      "name": "subgraph_(/model.19/conv/Conv_output_0_vaip_133)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3259391,
+      "name": "subgraph_(/model.20/Concat_output_0_vaip_627)",
+      "op_type": "concat-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2210815,
+      "name": "subgraph_(/model.20/Concat_output_0_vaip_627)",
+      "op_type": "concat-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258446,
+      "name": "subgraph_(/model.21/cv1/conv/Conv_output_0_vaip_136)_strided_slice_(0_0_0_128)_(1_20_20_256)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209870,
+      "name": "subgraph_(/model.21/cv1/conv/Conv_output_0_vaip_136)_strided_slice_(0_0_0_128)_(1_20_20_256)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258447,
+      "name": "subgraph_(/model.21/m.0/cv1/conv/Conv_output_0_vaip_139)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209871,
+      "name": "subgraph_(/model.21/m.0/cv1/conv/Conv_output_0_vaip_139)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258448,
+      "name": "subgraph_(/model.21/m.0/cv2/conv/Conv_output_0_vaip_142)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209872,
+      "name": "subgraph_(/model.21/m.0/cv2/conv/Conv_output_0_vaip_142)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258449,
+      "name": "subgraph_(/model.21/cv1/conv/Conv_output_0_vaip_136)_strided_slice_(0_0_0_0)_(1_20_20_128)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209873,
+      "name": "subgraph_(/model.21/cv1/conv/Conv_output_0_vaip_136)_strided_slice_(0_0_0_0)_(1_20_20_128)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3259391,
+      "name": "subgraph_(/model.21/Concat_output_0_vaip_659)",
+      "op_type": "concat-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2210815,
+      "name": "subgraph_(/model.21/Concat_output_0_vaip_659)",
+      "op_type": "concat-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258450,
+      "name": "subgraph_(/model.21/cv2/conv/Conv_output_0_vaip_145)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209874,
+      "name": "subgraph_(/model.21/cv2/conv/Conv_output_0_vaip_145)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258451,
+      "name": "subgraph_(/model.22/cv3.2/cv3.2.0/conv/Conv_output_0_vaip_148)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209875,
+      "name": "subgraph_(/model.22/cv3.2/cv3.2.0/conv/Conv_output_0_vaip_148)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258452,
+      "name": "subgraph_(/model.22/cv3.2/cv3.2.1/conv/Conv_output_0_vaip_151)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209876,
+      "name": "subgraph_(/model.22/cv3.2/cv3.2.1/conv/Conv_output_0_vaip_151)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258453,
+      "name": "subgraph_(/model.22/cv3.2/cv3.2.2/Conv_output_0_vaip_154)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209877,
+      "name": "subgraph_(/model.22/cv3.2/cv3.2.2/Conv_output_0_vaip_154)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258454,
+      "name": "subgraph_(/model.22/cv2.2/cv2.2.0/conv/Conv_output_0_vaip_157)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209878,
+      "name": "subgraph_(/model.22/cv2.2/cv2.2.0/conv/Conv_output_0_vaip_157)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258455,
+      "name": "subgraph_(/model.22/cv2.2/cv2.2.1/conv/Conv_output_0_vaip_160)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209879,
+      "name": "subgraph_(/model.22/cv2.2/cv2.2.1/conv/Conv_output_0_vaip_160)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258456,
+      "name": "subgraph_(/model.22/cv2.2/cv2.2.2/Conv_output_0_vaip_163)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209880,
+      "name": "subgraph_(/model.22/cv2.2/cv2.2.2/Conv_output_0_vaip_163)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3259391,
+      "name": "subgraph_(/model.22/Concat_2_output_0_vaip_704)",
+      "op_type": "concat-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2210815,
+      "name": "subgraph_(/model.22/Concat_2_output_0_vaip_704)",
+      "op_type": "concat-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258457,
+      "name": "subgraph_(/model.22/Concat_2_output_0_DequantizeLinear_Output)",
+      "op_type": "transpose-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209881,
+      "name": "subgraph_(/model.22/Concat_2_output_0_DequantizeLinear_Output)",
+      "op_type": "transpose-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258458,
+      "name": "subgraph_(/model.22/Reshape_2_output_0)",
+      "op_type": "reshape-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209882,
+      "name": "subgraph_(/model.22/Reshape_2_output_0)",
+      "op_type": "reshape-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3259391,
+      "name": "subgraph_(/model.22/Concat_3_output_0)",
+      "op_type": "concat-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2210815,
+      "name": "subgraph_(/model.22/Concat_3_output_0)",
+      "op_type": "concat-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258459,
+      "name": "subgraph_(/model.22/Split_output_0)",
+      "op_type": "strided_slice-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209883,
+      "name": "subgraph_(/model.22/Split_output_0)",
+      "op_type": "strided_slice-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258460,
+      "name": "subgraph_(/model.22/dfl/Reshape_output_0)",
+      "op_type": "reshape-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209884,
+      "name": "subgraph_(/model.22/dfl/Reshape_output_0)",
+      "op_type": "reshape-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3258461,
+      "name": "subgraph_(/model.22/dfl/Transpose_output_0_DequantizeLinear_Output)",
+      "op_type": "transpose-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2209885,
+      "name": "subgraph_(/model.22/dfl/Transpose_output_0_DequantizeLinear_Output)",
+      "op_type": "transpose-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3259391,
+      "name": "subgraph_(/model.22/dfl/Transpose_output_0_DequantizeLinear_Output)_download_0",
+      "op_type": "download",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2210815,
+      "name": "subgraph_(/model.22/dfl/Transpose_output_0_DequantizeLinear_Output)_download_0",
+      "op_type": "download",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3259391,
+      "name": "subgraph_(/model.22/Concat_3_output_0)_download_0",
+      "op_type": "download",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2210815,
+      "name": "subgraph_(/model.22/Concat_3_output_0)_download_0",
+      "op_type": "download",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 1185792,
+      "name": "pdi_subgraph_0",
+      "op_type": "PDI",
+      "start": true,
+      "type": "pdi_graph"
+    },
+    {
+      "id": 137216,
+      "name": "pdi_subgraph_0",
+      "op_type": "PDI",
+      "start": false,
+      "type": "pdi_graph"
+    },
+    {
+      "id": 3282944,
+      "name": "subgraph_(/model.22/dfl/Softmax_output_0)_upload_0",
+      "op_type": "upload",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2234368,
+      "name": "subgraph_(/model.22/dfl/Softmax_output_0)_upload_0",
+      "op_type": "upload",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3282945,
+      "name": "subgraph_(/model.22/dfl/Softmax_output_0_DequantizeLinear_Output_vaip_200)",
+      "op_type": "transpose-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2234369,
+      "name": "subgraph_(/model.22/dfl/Softmax_output_0_DequantizeLinear_Output_vaip_200)",
+      "op_type": "transpose-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3282946,
+      "name": "subgraph_(/model.22/dfl/conv/Conv_output_0_vaip_202)",
+      "op_type": "conv2d-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2234370,
+      "name": "subgraph_(/model.22/dfl/conv/Conv_output_0_vaip_202)",
+      "op_type": "conv2d-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3282947,
+      "name": "subgraph_(/model.22/dfl/Reshape_1_output_0)",
+      "op_type": "reshape-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2234371,
+      "name": "subgraph_(/model.22/dfl/Reshape_1_output_0)",
+      "op_type": "reshape-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3282948,
+      "name": "subgraph_(/model.22/Slice_output_0)",
+      "op_type": "strided_slice-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2234372,
+      "name": "subgraph_(/model.22/Slice_output_0)",
+      "op_type": "strided_slice-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3282949,
+      "name": "subgraph_(/model.22/Slice_1_output_0)",
+      "op_type": "strided_slice-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2234373,
+      "name": "subgraph_(/model.22/Slice_1_output_0)",
+      "op_type": "strided_slice-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3282950,
+      "name": "subgraph_(/model.22/Constant_9_output_0_DequantizeLinear_Output_vaip_912)",
+      "op_type": "eltwise-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2234374,
+      "name": "subgraph_(/model.22/Constant_9_output_0_DequantizeLinear_Output_vaip_912)",
+      "op_type": "eltwise-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3283967,
+      "name": "subgraph_(/model.22/Concat_3_output_0)_download_0_upload_0",
+      "op_type": "upload",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2235391,
+      "name": "subgraph_(/model.22/Concat_3_output_0)_download_0_upload_0",
+      "op_type": "upload",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3283967,
+      "name": "subgraph_(/model.22/Split_output_1)",
+      "op_type": "strided_slice-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2235391,
+      "name": "subgraph_(/model.22/Split_output_1)",
+      "op_type": "strided_slice-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3282951,
+      "name": "subgraph_(/model.22/Sigmoid_output_0_Mul)_transfered_eltwise",
+      "op_type": "eltwise-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2234375,
+      "name": "subgraph_(/model.22/Sigmoid_output_0_Mul)_transfered_eltwise",
+      "op_type": "eltwise-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3282952,
+      "name": "subgraph_(/model.22/Sigmoid_output_0_Mul)_transfered_eltwise_FixShifter",
+      "op_type": "eltwise-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2234376,
+      "name": "subgraph_(/model.22/Sigmoid_output_0_Mul)_transfered_eltwise_FixShifter",
+      "op_type": "eltwise-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3282953,
+      "name": "subgraph_(/model.22/Add_1_output_0)",
+      "op_type": "eltwise-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2234377,
+      "name": "subgraph_(/model.22/Add_1_output_0)",
+      "op_type": "eltwise-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3282954,
+      "name": "subgraph_(/model.22/Sub_1_output_0)",
+      "op_type": "eltwise-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2234378,
+      "name": "subgraph_(/model.22/Sub_1_output_0)",
+      "op_type": "eltwise-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3282955,
+      "name": "subgraph_(/model.22/Add_2_output_0)",
+      "op_type": "eltwise-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2234379,
+      "name": "subgraph_(/model.22/Add_2_output_0)",
+      "op_type": "eltwise-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 1529856,
+      "name": "pdi_subgraph_1",
+      "op_type": "PDI",
+      "start": true,
+      "type": "pdi_graph"
+    },
+    {
+      "id": 481280,
+      "name": "pdi_subgraph_1",
+      "op_type": "PDI",
+      "start": false,
+      "type": "pdi_graph"
+    },
+    {
+      "id": 3627008,
+      "name": "subgraph_(/model.22/Constant_11_output_0_DequantizeLinear_Output_vaip_913)",
+      "op_type": "eltwise-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2578432,
+      "name": "subgraph_(/model.22/Constant_11_output_0_DequantizeLinear_Output_vaip_913)",
+      "op_type": "eltwise-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3627009,
+      "name": "subgraph_(/model.22/Concat_4_output_0)",
+      "op_type": "concat-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2578433,
+      "name": "subgraph_(/model.22/Concat_4_output_0)",
+      "op_type": "concat-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 1173504,
+      "name": "pdi_subgraph_2",
+      "op_type": "PDI",
+      "start": true,
+      "type": "pdi_graph"
+    },
+    {
+      "id": 124928,
+      "name": "pdi_subgraph_2",
+      "op_type": "PDI",
+      "start": false,
+      "type": "pdi_graph"
+    },
+    {
+      "id": 3270656,
+      "name": "subgraph_(/model.22/Constant_12_output_0_DequantizeLinear_Output_vaip_914)",
+      "op_type": "eltwise-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2222080,
+      "name": "subgraph_(/model.22/Constant_12_output_0_DequantizeLinear_Output_vaip_914)",
+      "op_type": "eltwise-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3270657,
+      "name": "subgraph_(output0_QuantizeLinear_Input)",
+      "op_type": "concat-fix",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2222081,
+      "name": "subgraph_(output0_QuantizeLinear_Input)",
+      "op_type": "concat-fix",
+      "start": false,
+      "type": "layer"
+    },
+    {
+      "id": 3271679,
+      "name": "subgraph_(output0_QuantizeLinear_Input)_download_0",
+      "op_type": "download",
+      "start": true,
+      "type": "layer"
+    },
+    {
+      "id": 2223103,
+      "name": "subgraph_(output0_QuantizeLinear_Input)_download_0",
+      "op_type": "download",
+      "start": false,
+      "type": "layer"
+    }
+  ]
+}

@@ -1,10 +1,2 @@
-models/yolo12n.onnx
-models/yolov5nu.onnx
-models/yolov8n.onnx
-models/yolov8n-seg.onnx
-models/yolov8n-pose.onnx
-models/yolov8n-cls.onnx
-models/yolo11n-seg.onnx
-models/yolo11n-pose.onnx
-models/yolo11n-cls.onnx
-models/resnet50.onnx
+/models/*
+!/models/yolo11n.onnx
