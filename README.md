@@ -20,6 +20,7 @@
 
 ### ONNX Benchmarks
   ```bash
-  $ python onnx_benchmark.py --onnx_model ./models/yolov8n.onnx --device cpu
+  $ python onnx_benchmark.py --onnx_model ./models/yolo11n.onnx --device cpu
   ```
   > * **Ryzen AI 9 Supported Device**: `cpu`, `igpu`, `npu`
+>   * `./models/yolo11n.onnx` is for example purposes, you can replace it with your custom onnx model
