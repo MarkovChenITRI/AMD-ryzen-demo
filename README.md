@@ -17,6 +17,7 @@ Ryzen AI provides acceleration options for ONNX models using CPU, iGPU, and NPU,
   ```bash
   $ git clone https://github.com/R300-AI/AMD-ryzen-demo.git
   $ cd AMD-ryzen-demo
+  $ conda activate ryzen-ai-1.4.0    #created by AMD Ryzen AI Software
   $ pip install -r requirements.txt
   ```
 
