@@ -17,6 +17,7 @@ Ryzen AI provides acceleration options for ONNX models using CPU, iGPU, and NPU,
   ```bash
   $ git clone https://github.com/R300-AI/AMD-ryzen-demo.git
   $ cd AMD-ryzen-demo
+  $ conda activate ryzen-ai-1.4.0    #created by AMD Ryzen AI Software
   $ pip install -r requirements.txt
   ```
 
@@ -33,3 +34,4 @@ The ONNX benchmarks use different execution providers to drive Ryzen AI hardware
   > -  `npu` (for VPU)
 
 **【NOTE】** Replace `./models/yolo11n.onnx` with your ONNX model to test performance on the specified hardware.
+**【NOTE】** It is recommended to use ONNX models with `opset_version=13`.
