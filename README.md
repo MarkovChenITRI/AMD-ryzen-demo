@@ -9,7 +9,7 @@
 ## How to Use This?
 
 <div align="center">
-<img src="https://github.com/R300-AI/AMD-ryzen-demo/blob/main/docs/images/ryzen_chipset.png" width=360"/>
+<img src="https://github.com/R300-AI/AMD-ryzen-demo/blob/main/docs/images/chipset.png" width=360"/>
 </div>
 
 Ryzen AI provides acceleration options for ONNX models using CPU, iGPU, and NPU, while other operations are executed on the Ryzen architecture. If you are interested in running your ONNX model on these chips, you can follow the instructions below to download this example repository and set up the necessary environment.
