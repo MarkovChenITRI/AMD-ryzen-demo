@@ -1,6 +1,6 @@
 Profile Summary
-Generated on: 2025-04-11 16:15:50
-Msec since Epoch: 1744359350294
+Generated on: 2025-04-11 16:23:25
+Msec since Epoch: 1744359805181
 Profiled application: 
 Target platform: Xilinx
 Tool version: 2024.2
@@ -28,7 +28,7 @@ TRACE_BUFFER_FULL,win_device0-0,false
 MEMORY_TYPE_BIT_WIDTH,win_device0-0|HBM,256,
 MEMORY_TYPE_BIT_WIDTH,win_device0-0|DDR,512,
 MEMORY_TYPE_BIT_WIDTH,win_device0-0|PLRAM,512,
-APPLICATION_RUN_TIME_MS,all,403.912,
+APPLICATION_RUN_TIME_MS,all,2344.99,
 XRT_INI_SETTING,opencl_trace,0,Generation of trace of OpenCL APIs and memory transfers
 XRT_INI_SETTING,device_counters,0,Hardware counters added to summary file
 XRT_INI_SETTING,host_trace,0,Enable the top level of host trace

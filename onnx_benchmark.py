@@ -6,7 +6,7 @@ from utils.quantization import NPUQuantizer
 parser = argparse.ArgumentParser()
 parser.add_argument("-m", "--onnx_model", type=str, help="Path to .onnx")
 parser.add_argument("-d", "--device", type=str, default='cpu', choices = ['cpu', 'igpu', 'npu'], help="")
-parser.add_argument("-t", "--iteration", default=1000, type=int, help="Test How Many Times?")
+parser.add_argument("-t", "--iteration", default=100, type=int, help="Test How Many Times?")
 args = parser.parse_args()
 
 if args.device == 'cpu':
