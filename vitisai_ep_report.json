@@ -4147,11 +4147,11 @@
    ],
    "input": [
     "/model.7/conv/Conv_output_0",
-    "model.2.cv1.conv.bias_scale",
+    "/model.6/m.0/cv1/conv/Conv_output_0_scale",
     "/model.7/conv/Conv_output_0_zero_point"
    ],
    "opType": "QuantizeLinear",
-   "comment": "@376 [/model.7/conv/Conv_output_0_QuantizeLinear_Output:(ty=2,shape=[1,256,20,20])] QuantizeLinear [/model.7/conv/Conv_output_0:(ty=1,shape=[1,256,20,20]),model.2.cv1.conv.bias_scale:(ty=1,shape=[]),/model.7/conv/Conv_output_0_zero_point:(ty=2,shape=[])]",
+   "comment": "@376 [/model.7/conv/Conv_output_0_QuantizeLinear_Output:(ty=2,shape=[1,256,20,20])] QuantizeLinear [/model.7/conv/Conv_output_0:(ty=1,shape=[1,256,20,20]),/model.6/m.0/cv1/conv/Conv_output_0_scale:(ty=1,shape=[]),/model.7/conv/Conv_output_0_zero_point:(ty=2,shape=[])]",
    "device": "NPU"
   },
   {
@@ -4160,11 +4160,11 @@
    ],
    "input": [
     "/model.7/conv/Conv_output_0_QuantizeLinear_Output",
-    "model.2.cv1.conv.bias_scale",
+    "/model.6/m.0/cv1/conv/Conv_output_0_scale",
     "/model.7/conv/Conv_output_0_zero_point"
    ],
    "opType": "DequantizeLinear",
-   "comment": "@952 [/model.7/conv/Conv_output_0_DequantizeLinear_Output/duplicated:(ty=1,shape=[1,256,20,20])] DequantizeLinear [/model.7/conv/Conv_output_0_QuantizeLinear_Output:(ty=2,shape=[1,256,20,20]),model.2.cv1.conv.bias_scale:(ty=1,shape=[]),/model.7/conv/Conv_output_0_zero_point:(ty=2,shape=[])]",
+   "comment": "@952 [/model.7/conv/Conv_output_0_DequantizeLinear_Output/duplicated:(ty=1,shape=[1,256,20,20])] DequantizeLinear [/model.7/conv/Conv_output_0_QuantizeLinear_Output:(ty=2,shape=[1,256,20,20]),/model.6/m.0/cv1/conv/Conv_output_0_scale:(ty=1,shape=[]),/model.7/conv/Conv_output_0_zero_point:(ty=2,shape=[])]",
    "device": "NPU"
   },
   {
@@ -4173,11 +4173,11 @@
    ],
    "input": [
     "/model.7/conv/Conv_output_0_QuantizeLinear_Output",
-    "model.2.cv1.conv.bias_scale",
+    "/model.6/m.0/cv1/conv/Conv_output_0_scale",
     "/model.7/conv/Conv_output_0_zero_point"
    ],
    "opType": "DequantizeLinear",
-   "comment": "@377 [/model.7/conv/Conv_output_0_DequantizeLinear_Output:(ty=1,shape=[1,256,20,20])] DequantizeLinear [/model.7/conv/Conv_output_0_QuantizeLinear_Output:(ty=2,shape=[1,256,20,20]),model.2.cv1.conv.bias_scale:(ty=1,shape=[]),/model.7/conv/Conv_output_0_zero_point:(ty=2,shape=[])]",
+   "comment": "@377 [/model.7/conv/Conv_output_0_DequantizeLinear_Output:(ty=1,shape=[1,256,20,20])] DequantizeLinear [/model.7/conv/Conv_output_0_QuantizeLinear_Output:(ty=2,shape=[1,256,20,20]),/model.6/m.0/cv1/conv/Conv_output_0_scale:(ty=1,shape=[]),/model.7/conv/Conv_output_0_zero_point:(ty=2,shape=[])]",
    "device": "NPU"
   },
   {
@@ -4247,11 +4247,11 @@
    ],
    "input": [
     "/model.7/act/Mul_output_0",
-    "/model.6/m.0/cv1/conv/Conv_output_0_scale",
+    "model.4.m.0.cv2.conv.weight_scale",
     "/model.7/act/Mul_output_0_zero_point"
    ],
    "opType": "QuantizeLinear",
-   "comment": "@383 [/model.7/act/Mul_output_0_QuantizeLinear_Output:(ty=2,shape=[1,256,20,20])] QuantizeLinear [/model.7/act/Mul_output_0:(ty=1,shape=[1,256,20,20]),/model.6/m.0/cv1/conv/Conv_output_0_scale:(ty=1,shape=[]),/model.7/act/Mul_output_0_zero_point:(ty=2,shape=[])]",
+   "comment": "@383 [/model.7/act/Mul_output_0_QuantizeLinear_Output:(ty=2,shape=[1,256,20,20])] QuantizeLinear [/model.7/act/Mul_output_0:(ty=1,shape=[1,256,20,20]),model.4.m.0.cv2.conv.weight_scale:(ty=1,shape=[]),/model.7/act/Mul_output_0_zero_point:(ty=2,shape=[])]",
    "device": "NPU"
   },
   {
@@ -4260,11 +4260,11 @@
    ],
    "input": [
     "/model.7/act/Mul_output_0_QuantizeLinear_Output",
-    "/model.6/m.0/cv1/conv/Conv_output_0_scale",
+    "model.4.m.0.cv2.conv.weight_scale",
     "/model.7/act/Mul_output_0_zero_point"
    ],
    "opType": "DequantizeLinear",
-   "comment": "@384 [/model.7/act/Mul_output_0_DequantizeLinear_Output:(ty=1,shape=[1,256,20,20])] DequantizeLinear [/model.7/act/Mul_output_0_QuantizeLinear_Output:(ty=2,shape=[1,256,20,20]),/model.6/m.0/cv1/conv/Conv_output_0_scale:(ty=1,shape=[]),/model.7/act/Mul_output_0_zero_point:(ty=2,shape=[])]",
+   "comment": "@384 [/model.7/act/Mul_output_0_DequantizeLinear_Output:(ty=1,shape=[1,256,20,20])] DequantizeLinear [/model.7/act/Mul_output_0_QuantizeLinear_Output:(ty=2,shape=[1,256,20,20]),model.4.m.0.cv2.conv.weight_scale:(ty=1,shape=[]),/model.7/act/Mul_output_0_zero_point:(ty=2,shape=[])]",
    "device": "NPU"
   },
   {
@@ -9042,11 +9042,11 @@
    ],
    "input": [
     "/model.21/m.0/cv1/act/Mul_output_0",
-    "/model.6/m.0/cv1/conv/Conv_output_0_scale",
+    "model.4.m.0.cv2.conv.weight_scale",
     "/model.21/m.0/cv1/act/Mul_output_0_zero_point"
    ],
    "opType": "QuantizeLinear",
-   "comment": "@782 [/model.21/m.0/cv1/act/Mul_output_0_QuantizeLinear_Output:(ty=2,shape=[1,128,20,20])] QuantizeLinear [/model.21/m.0/cv1/act/Mul_output_0:(ty=1,shape=[1,128,20,20]),/model.6/m.0/cv1/conv/Conv_output_0_scale:(ty=1,shape=[]),/model.21/m.0/cv1/act/Mul_output_0_zero_point:(ty=2,shape=[])]",
+   "comment": "@782 [/model.21/m.0/cv1/act/Mul_output_0_QuantizeLinear_Output:(ty=2,shape=[1,128,20,20])] QuantizeLinear [/model.21/m.0/cv1/act/Mul_output_0:(ty=1,shape=[1,128,20,20]),model.4.m.0.cv2.conv.weight_scale:(ty=1,shape=[]),/model.21/m.0/cv1/act/Mul_output_0_zero_point:(ty=2,shape=[])]",
    "device": "NPU"
   },
   {
@@ -9055,11 +9055,11 @@
    ],
    "input": [
     "/model.21/m.0/cv1/act/Mul_output_0_QuantizeLinear_Output",
-    "/model.6/m.0/cv1/conv/Conv_output_0_scale",
+    "model.4.m.0.cv2.conv.weight_scale",
     "/model.21/m.0/cv1/act/Mul_output_0_zero_point"
    ],
    "opType": "DequantizeLinear",
-   "comment": "@783 [/model.21/m.0/cv1/act/Mul_output_0_DequantizeLinear_Output:(ty=1,shape=[1,128,20,20])] DequantizeLinear [/model.21/m.0/cv1/act/Mul_output_0_QuantizeLinear_Output:(ty=2,shape=[1,128,20,20]),/model.6/m.0/cv1/conv/Conv_output_0_scale:(ty=1,shape=[]),/model.21/m.0/cv1/act/Mul_output_0_zero_point:(ty=2,shape=[])]",
+   "comment": "@783 [/model.21/m.0/cv1/act/Mul_output_0_DequantizeLinear_Output:(ty=1,shape=[1,128,20,20])] DequantizeLinear [/model.21/m.0/cv1/act/Mul_output_0_QuantizeLinear_Output:(ty=2,shape=[1,128,20,20]),model.4.m.0.cv2.conv.weight_scale:(ty=1,shape=[]),/model.21/m.0/cv1/act/Mul_output_0_zero_point:(ty=2,shape=[])]",
    "device": "NPU"
   },
   {
