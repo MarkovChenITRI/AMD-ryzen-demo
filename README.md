@@ -15,8 +15,7 @@
 Ryzen AI provides acceleration options for ONNX models using CPU, iGPU, and NPU, while other operations are executed on the Ryzen architecture. If you are interested in running your ONNX model on these chips, you can follow the instructions below to download this example repository and set up the necessary environment.
   
   ```bash
-  $ git clone https://github.com/R300-AI/AMD-ryzen-demo.git
-  $ cd AMD-ryzen-demo
+  $ git clone https://github.com/R300-AI/AMD-ryzen-demo.git && cd AMD-ryzen-demo
   $ conda activate ryzen-ai-1.4.0    #created by AMD Ryzen AI Software
   $ pip install -r requirements.txt
   ```
