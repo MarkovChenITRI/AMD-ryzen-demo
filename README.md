@@ -28,9 +28,9 @@ The ONNX benchmarks use different execution providers to drive Ryzen AI hardware
   $ python onnx_benchmark.py --onnx_model ./models/yolo11n.onnx --device cpu
   ```
   > `--device` options:
-  > -  `cpu` (for DLA, G510/700 only)
-  > -  `igpu` (for DLA, 1200 only)
-  > -  `npu` (for VPU)
+  > -  `cpu` (for Zen CPU)
+  > -  `igpu` (for Radeon iGPU)
+  > -  `npu` (for XDNA NPU)
 
 **【NOTE】** Replace `./models/yolo11n.onnx` with your ONNX model to test performance on the specified hardware.
 **【NOTE】** It is recommended to use ONNX models with `opset_version=13`.
