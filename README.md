@@ -45,12 +45,16 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
   </tr>
   <tr>
     <td>Environments</td>
-    <td>Drivers</td>
+    <td>
+      [**Drivers**](https://www.amd.com/en/support/download/drivers.html)
+    </td>
     <td colspan="6">Ryzen AI Software</td>
   </tr>
   <tr>
     <td>Execution Provider</td>
-    <td>ROCm</td>
+    <td>
+      [**ROCm**](https://rocm.docs.amd.com/projects/install-on-linux/en/latest/install/quick-start.html)
+    </td>
     <td>--</td>
     <td>DirectML</td>
     <td>VitisAI</td>
@@ -68,7 +72,7 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
 </table>
 </div>
 
-* [GPU Drivers and ROCm Library: (External Radeon Series GPU)](https://www.amd.com/en/support/download/drivers.html)
+* [GPU Drivers and ROCm Library: (External Radeon Series GPU)]()
 * [Ryzen AI Software: (for iGPU and NPU)](https://ryzenai.docs.amd.com/en/latest/inst.html)
 
 * GAIA: 7 llm can be used.
