@@ -6,7 +6,7 @@
 
 * GAIA: 7 llm can be used.
 * Digest AI: model analysis (ONNX from HuggingFace)
-* Lemonade:
+* Lemonade: a cli for llm
 * Ryzen AI: ONNX and Quantize
 
 ## Requirements
