@@ -62,7 +62,7 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
       <a href="https://rocm.docs.amd.com/projects/install-on-linux/en/latest/install/quick-start.html"><b>ROCm</b></a> 
     </td>
     <td colspan="6">
-      <a href="https://ryzenai.docs.amd.com/en/latest/inst.html"><b>Ryzen AI Software</b></a> 
+      <a href="https://ryzenai.docs.amd.com/en/latest/inst.html"><b>Ryzen AI Software (包括下列的Provider)</b></a> 
     </td>
   </tr>
   <tr>
@@ -87,7 +87,10 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
 </table>
 </div>
 
-在上述的資源清單中，受到粗體標示的軟體為各類處理器所對應的軟體，請由下而上依序進行安裝。
+上面的表格中，請依照應用情境的Processor及Usage安裝相對應的軟體。其中，
+
+各處理器所對應的資源清單中，每一個用粗體標示的軟體需要被手動安裝。
+受到粗體標示的軟體為各類處理器所對應的軟體，請由下而上依序進行安裝。
 
 ## How to Use This?
 
