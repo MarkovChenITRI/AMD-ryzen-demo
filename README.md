@@ -8,7 +8,7 @@ AMD Ryzen AI是一個專為個人AI PC打造的Processor，
 
 * GAIA: 7 llm can be used.
 * Digest AI: model analysis (ONNX from HuggingFace)
-* Lemonade: a cli for llm
+* Lemonade: a cli for llm, BENCHMARK
 * Ryzen AI: ONNX and Quantize
 
 ## Requirements
