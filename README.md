@@ -2,7 +2,7 @@
 
 ## For Beginner
 
-AMD Ryzen是一個專門為個人 PC打造的AI Processor ，其最大的賣點在於其透過Infinity Fabric晶片互連技術，將CPU, GPU及NPU整合於單一一張晶片中(APU)，使它們能透過[共享同一個內存池(Unified Memory)](https://rocm.docs.amd.com/projects/HIP/en/docs-6.2.0/how-to/unified_memory.html)將資料的傳輸效率最佳化，。
+AMD Ryzen是一個專門為個人 PC打造的AI Processor ，其最大的賣點在於其透過Infinity Fabric晶片互連技術，將CPU, GPU及NPU整合於單一張晶片中(APU)，使它們能透過[共享同一個內存池(Unified Memory)](https://rocm.docs.amd.com/projects/HIP/en/docs-6.2.0/how-to/unified_memory.html)將資料的傳輸效率最佳化，。
 
 
 能夠支援需要同時混合CPU, GPU及NPU Hybrid Execution的應用。
