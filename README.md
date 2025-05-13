@@ -4,6 +4,7 @@
 AMD Ryzen AI是一個專為個人AI PC打造的Processor，意味著
 
 專為Python API
+Conda是必須的
 
 [AMD Ryzen™ AI Tutorials](https://youtube.com/playlist?list=PLYw1WVX5aNHABNAfottruTY8oX2eFlzmz&si=zigYfA3XEIu2OMmT)
 
