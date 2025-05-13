@@ -19,8 +19,6 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
 * Lemonade: a cli for llm, BENCHMARK
 * Ryzen AI: ONNX and Quantize
 
-* A **Ryzen AI PC** with **Windows OS**.
-* Download and Install [Anaconda](https://www.anaconda.com/download) and run `conda init` command in terminal.
 * [Install AMD Drivers for Zen CPU](https://www.amd.com/zh-tw/developer/zendnn.html)
 * [Install AMD Drivers for Radeon GPU](https://www.amd.com/en/support/download/drivers.html)
 * [Install AMD Drivers for HX NPU](https://ryzenai.docs.amd.com/en/latest/inst.html) 
