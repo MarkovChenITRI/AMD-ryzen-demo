@@ -6,7 +6,9 @@ AMD Ryzen是一個專門為個人助理打造的AI Processor ，其最大的賣�
 
 您可以透過點擊以下連結來播放Ryzen AI基礎知識的介紹影片(大約半小時)：
 
+<div align="center">
 [![AMD Ryzen™ AI Tutorials](https://i.ytimg.com/pl_c/PLYw1WVX5aNHABNAfottruTY8oX2eFlzmz/studio_square_thumbnail.jpg?sqp=CJysi8EG-oaymwEICKoDEPABSFqi85f_AwYI35KvvwY=&rs=AOn4CLAX5o3ahshTXAgTxaZKRKJYxJ9TTw)](https://www.youtube.com/playlist?list=PLYw1WVX5aNHABNAfottruTY8oX2eFlzmz)
+</div>
 
 ### 將Ryzen AI配置為工作站
 
@@ -14,6 +16,7 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
 
 ## Installation
 
+<div align="center">
 <table><thead>
   <tr>
     <th>Task</th>
@@ -61,6 +64,7 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
   </tr>
 </tbody>
 </table>
+</div>
 
 * [GPU Drivers and ROCm Library: (External Radeon Series GPU)](https://www.amd.com/en/support/download/drivers.html)
 * [Ryzen AI Software: (for iGPU and NPU)](https://ryzenai.docs.amd.com/en/latest/inst.html)
