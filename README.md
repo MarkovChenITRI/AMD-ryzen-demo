@@ -87,14 +87,6 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
 </table>
 </div>
 
-* [GPU Drivers and ROCm Library: (External Radeon Series GPU)]()
-* [Ryzen AI Software: (for iGPU and NPU)](https://ryzenai.docs.amd.com/en/latest/inst.html)
-
-* GAIA: 7 llm can be used.
-* Digest AI: model analysis (ONNX from HuggingFace)
-* Lemonade: a cli for llm, BENCHMARK
-* Ryzen AI: ONNX and Quantize
-
 ## How to Use This?
 
 <div align="center">
