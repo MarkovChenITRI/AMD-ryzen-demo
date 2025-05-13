@@ -38,8 +38,8 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
     <td rowspan="2">C++</td>
   </tr>
   <tr>
-    <td>API</td>
-    <td>PyTorch</td>
+    <td>Framework</td>
+    <td>Torch/TF/JAX</td>
     <td colspan="3">ONNX</td>
     <td colspan="2">Lemonade CLI</td>
   </tr>
