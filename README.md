@@ -10,15 +10,17 @@ AMD Ryzen是一個專門為個人助理打造的AI Processor ，其最大的賣�
 
 ### 將Ryzen AI配置為工作站
 
+AMD Ryzen整顆APU內部雖然搭載了CPU, internal GPU(=iGPU)及NPU，但是
 
 
+
+## Requirements
 
 * GAIA: 7 llm can be used.
 * Digest AI: model analysis (ONNX from HuggingFace)
 * Lemonade: a cli for llm, BENCHMARK
 * Ryzen AI: ONNX and Quantize
 
-## Requirements
 * A **Ryzen AI PC** with **Windows OS**.
 * Download and Install [Anaconda](https://www.anaconda.com/download) and run `conda init` command in terminal.
 * [Install AMD Drivers for Zen CPU](https://www.amd.com/zh-tw/developer/zendnn.html)
