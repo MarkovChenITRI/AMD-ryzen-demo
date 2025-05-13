@@ -16,23 +16,13 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
 
 <table>
     <tr>
-        <th>Category</th>
-        <th>Application</th>
+        <th>Processor</th>
+        <th>Driver</th>
         <th>Pi<br>
-        <th>Genio<br>
-        <th>Ryzen</th>
-        <th>Jetson</th>
-        <th>WE</th>
-        <th>Hailo</th>
     </tr>
     <tr>
         <td rowspan=3>CV</td>
         <td>Image Classification</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
     </tr>
 </table>
