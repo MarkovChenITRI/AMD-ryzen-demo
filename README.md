@@ -10,7 +10,7 @@ AMD Ryzen是一個專門為個人助理打造的AI Processor ，其最大的賣�
 
 ### 將Ryzen AI配置為工作站
 
-AMD Ryzen整顆APU內部雖然搭載了CPU, internal GPU(=iGPU)及NPU，但是
+AMD Ryzen APU內部雖然已經搭載了完整的CPU, internal GPU(=iGPU)及NPU，但是
 
 
 
