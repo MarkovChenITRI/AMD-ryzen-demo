@@ -34,7 +34,7 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
   </tr>
   <tr>
     <td>Runtime</td>
-    <td colspan="6">Python&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td colspan="6">Python with Conda&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td rowspan="2">C++</td>
   </tr>
   <tr>
@@ -44,7 +44,7 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
     <td colspan="2">Lemonade CLI</td>
   </tr>
   <tr>
-    <td>Environments</td>
+    <td>Software</td>
     <td>
       <a href="https://rocm.docs.amd.com/projects/install-on-linux/en/latest/install/quick-start.html"><b>ROCm</b></a> 
     </td>
