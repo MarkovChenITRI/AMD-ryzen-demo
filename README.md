@@ -1,5 +1,7 @@
 # The Best Implementation for Ryzen AI
 
+* GAIA: 7 llm can be used.
+
 ## Requirements
 * A **Ryzen AI PC** with **Windows OS**.
 * Download and Install [Anaconda](https://www.anaconda.com/download) and run `conda init` command in terminal.
