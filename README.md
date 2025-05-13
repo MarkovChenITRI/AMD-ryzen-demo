@@ -22,15 +22,15 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
 <table><thead>
   <tr>
     <th>Task</th>
-    <th>Inference/Training</th>
-    <th colspan="6">Inference only</th>
+    <th colspan="2">Inference/Training</th>
+    <th colspan="5">Inference only</th>
   </tr></thead>
 <tbody>
   <tr>
     <td>Usage</td>
     <td>All</td>
-    <td colspan="3">General</td>
-    <td colspan="3">LLM</td>
+    <td colspan="3">General DNNs</td>
+    <td colspan="3">LLMs</td>
   </tr>
   <tr>
     <td>API</td>
