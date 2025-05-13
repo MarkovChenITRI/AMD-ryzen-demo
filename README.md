@@ -87,6 +87,8 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
 </table>
 </div>
 
+在上述的資源清單中，受到粗體標示的軟體為各類處理器所對應的軟體，請由下而上依序進行安裝。
+
 ## How to Use This?
 
 <div align="center">
