@@ -29,7 +29,7 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
   <tr>
     <td>Usage</td>
     <td>All</td>
-    <td colspan="3">General DNNs</td>
+    <td colspan="3">General CNNs/Transformers</td>
     <td colspan="3">LLMs</td>
   </tr>
   <tr>
