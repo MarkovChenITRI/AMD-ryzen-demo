@@ -4,7 +4,7 @@
 
 AMD Ryzen是一個專門為個人助理打造的AI Processor ，其最大的賣點在於其透過Infinity Fabric晶片互連技術，將CPU, GPU及NPU整合於單一張晶片中(APU)，使它們能透過[共享同一個內存池(Unified Memory)](https://rocm.docs.amd.com/projects/HIP/en/docs-6.2.0/how-to/unified_memory.html)來將資料傳輸效率最佳化，適合用於部署Hybrid Execution的應用。
 
-其複雜的系統成分也意味著它在軟體的支援性將成為應用開發上的一大挑戰，
+其複雜的系統成分也意味著它在開源軟體的支援性將成為我們應用開發上的一大挑戰，
 
 專為Python API
 Conda是必須的
