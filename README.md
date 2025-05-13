@@ -47,7 +47,9 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
   <tr>
     <td>Framework</td>
     <td>Torch/TF/JAX</td>
-    <td colspan="3">ONNX</td>
+    <td colspan="3">
+      <a href="https://github.com/onnx/digestai"><b>ONNX with DigestAI</b></a> 
+    </td>
     <td colspan="2">
       <a href="https://github.com/onnx/turnkeyml/blob/main/docs/lemonade/README.md"><b>Lemonade CLI</b></a> 
     </td>
