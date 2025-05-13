@@ -1,5 +1,8 @@
 # The Best Implementation for Ryzen AI
 
+[我的 YouTube 播放清單](https://youtube.com/playlist?list=PLYw1WVX5aNHABNAfottruTY8oX2eFlzmz&si=zigYfA3XEIu2OMmT)
+
+
 * GAIA: 7 llm can be used.
 * Digest AI: model analysis (ONNX from HuggingFace)
 * Lemonade:
