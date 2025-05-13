@@ -1,7 +1,7 @@
 # The Best Implementation for Ryzen AI
 
 * GAIA: 7 llm can be used.
-* Digest AI: model analysis (ONNX)
+* Digest AI: model analysis (ONNX from HuggingFace)
 
 ## Requirements
 * A **Ryzen AI PC** with **Windows OS**.
