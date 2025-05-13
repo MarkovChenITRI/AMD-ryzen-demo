@@ -2,6 +2,8 @@
 
 * GAIA: 7 llm can be used.
 * Digest AI: model analysis (ONNX from HuggingFace)
+* Lemonade:
+* Ryzen AI: ONNX and Quantize
 
 ## Requirements
 * A **Ryzen AI PC** with **Windows OS**.
