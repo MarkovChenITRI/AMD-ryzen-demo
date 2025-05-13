@@ -4,6 +4,8 @@ AMD Ryzen是一個專門為個人助理打造的AI Processor ，其最大的賣�
 
 其複雜的系統成分也意味著它的軟體支援性將成為應用開發上的一大挑戰。因此，這個Repository的目的便是在於持續追蹤AMD Ryzen官方軟體支援的資訊，為一般**AI研究人員**或**早期概念驗證的開發者**提供最新且完整的軟體安裝流程。這些軟體主要是使用Windows作為作業系統(Linux仍在試驗階段)，且必須使用Conda來為他們布置虛擬環境，
 
+https://www.anaconda.com/docs/getting-started/miniconda/main
+
 為開發者
 的更新，持續
 
