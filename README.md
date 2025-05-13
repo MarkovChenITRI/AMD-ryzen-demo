@@ -16,55 +16,48 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
 
 <table><thead>
   <tr>
-    <th>Usage</th>
-    <th colspan="3">General</th>
-    <th colspan="3">LLM</th>
-    <th>General</th>
+    <th>Task</th>
+    <th>Inference/Training</th>
+    <th colspan="6">Inference only</th>
   </tr></thead>
 <tbody>
   <tr>
     <td>Usage</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>All</td>
+    <td colspan="3">General</td>
+    <td colspan="3">LLM</td>
   </tr>
   <tr>
     <td>API</td>
-    <td colspan="5">Python</td>
-    <td>C++</td>
-    <td></td>
+    <td colspan="6">Python&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td rowspan="2">C++</td>
   </tr>
   <tr>
     <td>Runtime</td>
+    <td>PyTorch</td>
     <td colspan="3">ONNX</td>
     <td colspan="2">Lemonade CLI</td>
-    <td></td>
-    <td>PyTorch</td>
   </tr>
   <tr>
     <td>Environments</td>
-    <td colspan="6">Ryzen AI Software</td>
     <td>Drivers</td>
+    <td colspan="6">Ryzen AI Software</td>
   </tr>
   <tr>
     <td>Execution Provider</td>
+    <td>ROCm</td>
     <td>--</td>
     <td>DirectML</td>
     <td>VitisAI</td>
     <td colspan="3">OGA</td>
-    <td>ROCm</td>
   </tr>
   <tr>
     <td>Processor Type</td>
+    <td>external GPUs</td>
     <td>CPU</td>
     <td>iGPU</td>
     <td>NPU</td>
     <td colspan="3">Hybrid</td>
-    <td>external GPUs</td>
   </tr>
 </tbody>
 </table>
