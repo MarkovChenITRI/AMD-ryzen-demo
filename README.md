@@ -28,7 +28,7 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
 <tbody>
   <tr>
     <td>Tools</td>
-    <td colspan="4">Jupyter/ VS Code...</td>
+    <td colspan="4">Jupyter/ VS Code...etc</td>
     <td colspan="3">
       <a href="https://github.com/amd/gaia"><b>GAIA</b></a> 
     </td>
