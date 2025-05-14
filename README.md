@@ -57,7 +57,7 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
   <tr>
     <td>Software</td>
     <td rowspan="2">
-      <a href="https://rocm.docs.amd.com/projects/install-on-linux/en/latest/install/quick-start.html"><b>ROCm and Driver</b></a> 
+      <a href="https://rocm.docs.amd.com/projects/install-on-linux/en/latest/install/quick-start.html"><b>ROCm and Driver<br>(WSL)</b></a> 
     </td>
     <td colspan="6">
       <a href="https://ryzenai.docs.amd.com/en/latest/inst.html"><b>Ryzen AI Software (包括下列Provider)</b></a> 
