@@ -95,7 +95,7 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
 
 ROCm為AMD Radeon系列的API與軟體，開發人員可以利用這些工具調度GPUs中的運算單元，用於加速可平行化處理的運算工作。
 
-| [PyTorch](https://pytorch.org/get-started/locally/#windows-verification) | [Tensorflow](https://www.tensorflow.org/guide/gpu) |
+| [PyTorch](https://pytorch.org/get-started/locally/#windows-verification) | [Tensorflow](https://www.tensorflow.org/guide/gpu) | [JAX](https://docs.jax.dev/en/latest/quickstart.html) |
 
 ### *internal CPU, GPU and NPU*
 
