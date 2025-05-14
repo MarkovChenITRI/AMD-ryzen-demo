@@ -97,7 +97,7 @@ ROCm為AMD Radeon系列的API與軟體，開發者可以利用這些工具調度
 * 深度學習框架 | [PyTorch](https://rocm.docs.amd.com/projects/install-on-linux/en/latest/install/3rd-party/pytorch-install.html), [Tensorflow](https://rocm.docs.amd.com/projects/install-on-linux/en/latest/install/3rd-party/tensorflow-install.html), [JAX](https://rocm.docs.amd.com/projects/install-on-linux/en/latest/install/3rd-party/jax-install.html)
 * 開發工具     | [Jupyter (for Python)](https://jupyter.org/install), [VS Code](https://code.visualstudio.com/download)
 
-### *internal CPU, GPU and NPU*
+### *CPU, GPU and NPU*
 
 Ryzen AI provides acceleration options for ONNX models using CPU, iGPU, and NPU, while other operations are executed on the Ryzen architecture. If you are interested in running your ONNX model on these chips, you can follow the instructions below to download this example repository and set up the necessary environment.
   
