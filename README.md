@@ -4,7 +4,7 @@ AMD Ryzen是一個專門為個人助理打造的AI Processor ，其最大的賣�
 
 其複雜的系統成分也意味著它的軟體支援性將成為應用開發上的一大挑戰。因此，這個Repository的目的便是在於持續追蹤AMD Ryzen官方軟體支援的資訊，為一般**AI研究人員**或**早期概念驗證的開發者**提供最新且完整的軟體安裝流程。這些軟體主要是使用[Windows11作業系統](https://www.microsoft.com/zh-tw/software-download/windows11)(*Linux仍在實驗階段*)，且必須透過[Conda](https://www.anaconda.com/docs/getting-started/miniconda/main)來布置這些軟體的虛擬環境。除此之外，我們也特別針對一些常見的Python Execution提供範例模板，以此加速Ryzen AI生態的應用創新。
 
-您可以透過點擊以下連結來播放Ryzen AI基礎知識的介紹影片(大約半小時)：
+您可以透過點擊以下連結來播放並學習Ryzen AI基礎知識的介紹影片(大約半小時)：
 
 <div align="center">
   
@@ -91,6 +91,8 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
 
 ## How to Use This?
 
+### **external GPUs (Radeon Series)**
+### *internal CPU, GPU and NPU*
 
 Ryzen AI provides acceleration options for ONNX models using CPU, iGPU, and NPU, while other operations are executed on the Ryzen architecture. If you are interested in running your ONNX model on these chips, you can follow the instructions below to download this example repository and set up the necessary environment.
   
