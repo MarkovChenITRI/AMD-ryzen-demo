@@ -16,6 +16,8 @@ AMD Ryzen是一個專門為個人助理打造的AI Processor ，其最大的賣�
 
 AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這些處理器僅支援與"推論"有關的程序，針對"訓練"方面的工作仍只能依靠內建的CPU。或者，您也可以透過主機板的外部擴充卡槽(如：[Radeon Graphics Cards](https://www.amd.com/en/products/graphics/desktops/radeon.html))來增強本機在訓練模型、微調神經網路參數的能力。
 
+| [PyTorch](https://pytorch.org/get-started/locally/#windows-verification) | [Tensorflow](https://www.tensorflow.org/guide/gpu) |
+
 ## Installation
 
 <div align="center">
