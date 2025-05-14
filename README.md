@@ -95,7 +95,7 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
 
 ROCm為AMD Radeon系列的API與軟體，開發者可以利用這些工具調度GPUs中的運算單元，用於加速可平行化處理的運算工作。
 
-這個軟體能夠支援下列這些開源深度學習框架，讓開發者可以透過C++/Python輕易地加速AI模型設計、訓練及調適的開發時程，並輸出最終。
+這個軟體能夠支援下列這些開源深度學習框架，讓開發者可以透過C++/Python輕易地加速AI模型設計、訓練及調適的開發過程。詳細的安裝方法與使用教學請參照它們各自的：
 
 | [PyTorch](https://pytorch.org/get-started/locally/#windows-verification) | [Tensorflow](https://www.tensorflow.org/guide/gpu) | [JAX](https://docs.jax.dev/en/latest/quickstart.html) |
 
