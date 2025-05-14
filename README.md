@@ -92,6 +92,9 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
 ## How to Use This?
 
 ### **external GPUs (Radeon Series)**
+
+ROCm為AMD Radeon系列的API與軟體，開發人員可以利用這些工具調度GPUs中的平行運算單元，用於加速。
+
 ### *internal CPU, GPU and NPU*
 
 Ryzen AI provides acceleration options for ONNX models using CPU, iGPU, and NPU, while other operations are executed on the Ryzen architecture. If you are interested in running your ONNX model on these chips, you can follow the instructions below to download this example repository and set up the necessary environment.
