@@ -48,7 +48,7 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
     <td>Framework</td>
     <td>Torch/TF/JAX</td>
     <td colspan="3">
-      <a href="https://github.com/onnx/digestai"><b>ONNX with DigestAI</b></a> 
+      <a href="https://github.com/onnx/digestai"><b>ONNX with Digest AI</b></a> 
     </td>
     <td colspan="2">
       <a href="https://github.com/onnx/turnkeyml/blob/main/docs/lemonade/README.md"><b>Lemonade CLI</b></a> 
@@ -60,7 +60,7 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
       <a href="https://rocm.docs.amd.com/projects/install-on-linux/en/latest/install/quick-start.html"><b>ROCm and Driver<br>(using WSL)</b></a> 
     </td>
     <td colspan="6">
-      <a href="https://ryzenai.docs.amd.com/en/latest/inst.html"><b>Ryzen AI Software (包括下列Provider)</b></a> 
+      <a href="https://ryzenai.docs.amd.com/en/latest/inst.html"><b>Ryzen AI Software (包括下列Provider及Quark)</b></a> 
     </td>
   </tr>
   <tr>
