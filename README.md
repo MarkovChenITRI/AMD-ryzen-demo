@@ -84,7 +84,7 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
 
 上方提供的表格為AMD官方提供的資源清單及應用方式，請依照自己的Processor及Usage識別相對應所需使用的軟體，並依照由下而上的順序逐步進行安裝。
 > [!TIP]
-> Radeon Graphics Cards目前僅支援Linux作業系統。因此，您需要額外透過[WSL](https://documentation.ubuntu.com/wsl/en/latest/howto/install-ubuntu-wsl2/)安裝Ubuntu24.04或其他可支援的作業系統，才能安裝與調用Driver與ROCm這些資源。
+> external GPUs目前僅支援Linux作業系統。因此，您需要額外透過[WSL](https://documentation.ubuntu.com/wsl/en/latest/howto/install-ubuntu-wsl2/)安裝Ubuntu24.04或其他可支援的作業系統，才能安裝與調用Driver與ROCm這些資源。
 
 ## How to Use This?
 
