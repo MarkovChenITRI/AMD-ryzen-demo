@@ -46,9 +46,7 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
   </tr>
   <tr>
     <td>Framework</td>
-    <td>
-      <a href="https://rocm.docs.amd.com/projects/install-on-linux/en/latest/install/3rd-party/pytorch-install.html"><b>Torch/TF/JAX</b></a> 
-    </td>
+    <td>Torch/TF/JAX</td>
     <td colspan="3">
       <a href="https://github.com/onnx/digestai"><b>ONNX with DigestAI</b></a> 
     </td>
@@ -95,9 +93,9 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
 
 ROCm為AMD Radeon系列的API與軟體，開發者可以利用這些工具調度GPUs中的運算單元，用於加速可平行化處理的運算工作。
 
-這個軟體能夠支援下列這些開源深度學習框架，讓開發者可以透過C++/Python輕易地加速設計、訓練及調適AI模型的過程。為此，您可以參照它們各自的社群文件了解詳細的安裝方法與使用教學：
+這個軟體能夠支援一般開源的深度學習開發框架，讓開發者可以透過C++/Python輕易地加速設計、訓練及調適AI模型的過程。為此，您可以依照下列的文件來安裝這些框架，並透過這些框架的社群瞭解這些框架的使用方法：
 
-| [PyTorch](https://pytorch.org/get-started/locally/#windows-verification) | [Tensorflow](https://www.tensorflow.org/guide/gpu) | [JAX](https://docs.jax.dev/en/latest/quickstart.html) |
+| [PyTorch](https://rocm.docs.amd.com/projects/install-on-linux/en/latest/install/3rd-party/pytorch-install.html) | [Tensorflow](https://rocm.docs.amd.com/projects/install-on-linux/en/latest/install/3rd-party/tensorflow-install.html) | [JAX](https://rocm.docs.amd.com/projects/install-on-linux/en/latest/install/3rd-party/jax-install.html) |
 
 ### *internal CPU, GPU and NPU*
 
