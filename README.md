@@ -65,6 +65,7 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
   </tr>
   <tr>
     <td>Execution Provider</td>
+    <td>Drivers</td>
     <td>--</td>
     <td>DirectML</td>
     <td>VitisAI</td>
