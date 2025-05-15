@@ -119,7 +119,7 @@ ROCm為AMD Radeon系列的API與軟體，開發者可以利用這些工具調度
    > ```
 
 ## LLM
-GAIA 是 Ryzen AI的應用程式，讓使用者可以在本機上執行多種不同類型的 AI 代理任務，例如：聊天機器人、影片內容分析、文字生成...等。而 Lemonade 則是 GAIA推論LLM時所使用的低階API，適合開發者透過 Python API 來調用LLM模型。
+GAIA 是 Ryzen AI的應用程式，讓使用者可以在本機上執行多種不同類型的 AI 代理任務，例如：聊天機器人、影片內容分析、文字生成...等。而 Lemonade 則是 GAIA推論LLM時所使用的低階API，適合開發者透過 Python API 來調用LLM模型，主要差異如下：
 
 <table border="1">
     <thead>
@@ -132,18 +132,21 @@ GAIA 是 Ryzen AI的應用程式，讓使用者可以在本機上執行多種不
     <tbody>
         <tr>
             <td><strong>用途</strong></td>
-            <td>AMD 的本地 AI 應用程式，可在 Ryzen AI PC 上運行 LLM</td>
-            <td>ONNX TurnkeyML 提供的 LLM 推論 SDK</td>
+            <td>高階的 AI 代理任務</td>
+            <td>低階LLM推論的API</td>
         </tr>
         <tr>
-            <td><strong>運行方式</strong></td>
+            <td><strong>運作方式</strong></td>
             <td>透過 <strong>UI</strong> 或 <strong>CLI</strong> 與 AI 互動</td>
             <td>支援 <strong>Python API</strong> 及 <strong>CLI</strong></td>
         </tr>
         <tr>
-            <td><strong>硬體加速</strong></td>
-            <td>利用 <strong>NPU + iGPU</strong> 提高 AI 推論速度</td>
-            <td>優化 CPU、iGPU 和 NPU 的 LLM 推論</td>
+            <td rowspan="3"><strong>硬體加速</strong></td>
+            <td colspan="2">
+                <strong>混合模式 (Hybrid Mode)：</strong> 適用於 Ryzen AI PC，使用 <strong>NPU + iGPU</strong> 來加速 AI 運算。<br>
+                <strong>NPU 模式 (NPU Mode)：</strong> 依賴 **NPU** 進行推論（即將推出）。<br>
+                <strong>通用模式 (Generic Mode)：</strong> 可在任何 Windows PC 上運行，使用 **Ollama** 作為後端。
+            </td>
         </tr>
         <tr>
             <td><strong>安裝關係</strong></td>
