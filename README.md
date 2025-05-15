@@ -133,7 +133,7 @@ GAIA 是 Ryzen AI的應用程式，讓使用者可以在本機上執行多種不
         <tr>
             <td><strong>用途</strong></td>
             <td>高階的 AI 代理任務</td>
-            <td>低階LLM推論的API</td>
+            <td>LLM後端推論的API</td>
         </tr>
         <tr>
             <td><strong>運作方式</strong></td>
@@ -141,17 +141,17 @@ GAIA 是 Ryzen AI的應用程式，讓使用者可以在本機上執行多種不
             <td>支援 <strong>Python API</strong> 及 <strong>CLI</strong></td>
         </tr>
         <tr>
-            <td rowspan="3"><strong>硬體加速</strong></td>
+            <td><strong>硬體加速</strong></td>
             <td colspan="2">
                 <strong>混合模式 (Hybrid Mode)：</strong> 適用於 Ryzen AI PC，使用 <strong>NPU + iGPU</strong> 來加速 AI 運算。<br>
-                <strong>NPU 模式 (NPU Mode)：</strong> 依賴 **NPU** 進行推論（即將推出）。<br>
-                <strong>通用模式 (Generic Mode)：</strong> 可在任何 Windows PC 上運行，使用 **Ollama** 作為後端。
+                <strong>NPU 模式 (NPU Mode)：</strong> 依賴 NPU 進行推論。<br>
+                <strong>通用模式 (Generic Mode)：</strong> 可在任何 Windows PC 上運作，後端可以使用 Ollama。
             </td>
         </tr>
         <tr>
             <td><strong>安裝關係</strong></td>
             <td>安裝 GAIA 時會自動包含 Lemonade</td>
-            <td>可獨立使用，也可搭配 GAIA 運行</td>
+            <td>可獨立使用，也可搭配 GAIA 運作</td>
         </tr>
         <tr>
             <td><strong>開源性</strong></td>
