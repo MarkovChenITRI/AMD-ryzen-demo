@@ -122,13 +122,6 @@ AMD LLM Toolkit 提供完整的本地大型語言模型 (LLM) 推論解決方案
 
 兩者皆可充分發揮 Ryzen AI 平台的異質運算優勢，支援多種硬體加速模式，協助用戶根據需求選擇最佳化的推論效能與能耗表現。
 
-### 安裝資源
-
-- [GAIA 安裝說明](https://github.com/amd/gaia)
-- [Lemonade 安裝說明](https://github.com/onnx/turnkeyml/blob/main/docs/lemonade/README.md)
-
-> **注意**：安裝 GAIA 時會自動包含 Lemonade；Lemonade 也可獨立安裝或搭配 GAIA 使用。
-
 <div align="center">
 <table border="1">
     <thead>
@@ -162,11 +155,13 @@ AMD LLM Toolkit 提供完整的本地大型語言模型 (LLM) 推論解決方案
             <th>通用模式 (Generic Mode)</th>
             <td colspan="2">在所有CPU上皆能使用，OGA可以替換為 Ollama</td>
         </tr>
-        <tr>
-            <td colspan="2"><strong>安裝關係</strong></td>
-            <td>安裝 GAIA 時會自動包含 Lemonade</td>
-            <td>可獨立使用，也可搭配 GAIA 執行</td>
-        </tr>
     </tbody>
 </table>
 </div>
+
+### 安裝資源
+
+- [GAIA 安裝說明](https://github.com/amd/gaia)
+- [Lemonade 安裝說明](https://github.com/onnx/turnkeyml/blob/main/docs/lemonade/README.md)
+
+> **注意**：安裝 GAIA 時會自動包含 Lemonade；Lemonade 也可獨立安裝或搭配 GAIA 使用。
