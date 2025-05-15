@@ -159,7 +159,7 @@ GAIA 是 Ryzen AI的應用程式，讓使用者可以在本機上執行多種不
                 <strong>後端可以替換為 Ollama
             </td>
             <td>
-                <strong>使用OGA來調用<strong>CPU</strong> 處理 LLM 運算
+                <strong>只能使用OGA
             </td>
         </tr>
         <tr>
