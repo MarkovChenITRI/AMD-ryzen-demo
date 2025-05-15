@@ -108,7 +108,7 @@ ROCm為AMD Radeon系列的API與軟體，開發者可以利用這些工具調度
    > ```
 
 2. 如果要將模型部署到NPU，您需要先透過Quark工具將ONNX檔中可量化的運算子編譯為NPU的操作指令。
-   > 您可以透過編輯`onnx_quantizer.py`中的`quant_config`來變更量化方法，詳細的參數配置請參閱[官方文件](https://quark.docs.amd.com/latest/onnx/appendix_full_quant_config_features.html)
+   > 您可以透過編輯`onnx_quantizer.py`中的`quant_config`來變更量化方法，這個步驟，詳細的參數配置請參閱[官方文件](https://quark.docs.amd.com/latest/onnx/appendix_full_quant_config_features.html)。
    > ```bash
    > $ python onnx_quantizer.py --onnx_model ./models/yolov8n.onnx
    > ```
