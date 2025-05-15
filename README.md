@@ -111,19 +111,3 @@ ROCm為AMD Radeon系列的API與軟體，開發者可以利用這些工具調度
   ```bash
   $ python onnx_benchmark.py --onnx_model ./models/yolo11n.onnx --provider CPUExecutionProvider
   ```
-
-
-### ONNX Benchmarks
-
-The ONNX benchmarks use different execution providers to drive Ryzen AI hardware, including CPU Execution Provider (EP) for Zen CPU, DirectML Execution Provider for Radeon iGPU, and Vitis IA Execution Provider for HX NPU. Run the benchmark with the following command:
-  
-  ```bash
-  $ python onnx_benchmark.py --onnx_model ./models/yolo11n.onnx --provider CPUExecutionProvider
-  ```
-  > `--device` options:
-  > -  `cpu` (for Zen CPU)
-  > -  `igpu` (for Radeon iGPU)
-  > -  `npu` (for XDNA NPU)
-
-**【NOTE】** Replace `./models/yolo11n.onnx` with your ONNX model to test performance on the specified hardware.
-**【NOTE】** It is recommended to use ONNX models with `opset_version=13`.
