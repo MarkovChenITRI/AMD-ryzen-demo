@@ -100,12 +100,13 @@ ROCm為AMD Radeon系列的API與軟體，開發者可以利用這些工具調度
 ### **CPU, GPU and NPU**
 
 1. Ryzen AI處理器是透過ONNX解釋器來辨認模型的神經網路架構及運算參數，所以您必須先將模型從PyTorch、Tensorflow或AJAX框架輸出成ONNX格式(Ryzen AI Software 1.4.0建議輸出的opset版本為13)，才能將模型部署到GPU及NPU做推論。
-   > 請先Clone這個範例程式庫，在`./models`中已經有預先輸出一些`.onnx`檔案，您可以透過[Netron](https://github.com/lutzroeder/netron)或[Digest AI](https://github.com/onnx/digestai)來預覽模型的成分。
+   > 請先下載這個範例程式庫，在`./models`中已經有預先輸出一些`.onnx`檔案，您可以透過[Netron](https://github.com/lutzroeder/netron)或[Digest AI](https://github.com/onnx/digestai)來預覽模型的成分。
    > ```bash
    > $ git clone https://github.com/R300-AI/AMD-ryzen-demo.git && cd AMD-ryzen-demo
    > ```
 
-Ryzen AI provides acceleration options for ONNX models using CPU, iGPU, and NPU, while other operations are executed on the Ryzen architecture. If you are interested in running your ONNX model on these chips, you can follow the instructions below to download this example repository and set up the necessary environment.
+2. 
+
   
   ```bash
   $ git clone https://github.com/R300-AI/AMD-ryzen-demo.git && cd AMD-ryzen-demo
