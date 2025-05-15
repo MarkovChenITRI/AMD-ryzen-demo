@@ -165,7 +165,7 @@ GAIA 是 Ryzen AI的應用程式，讓使用者可以在本機上執行多種不
         <tr>
             <td colspan="2"><strong>安裝關係</strong></td>
             <td>安裝 GAIA 時會自動包含 Lemonade</td>
-            <td>可獨立使用，也可搭配 GAIA 運作</td>
+            <td>可獨立使用，也可搭配 GAIA 執行</td>
         </tr>
     </tbody>
 </table>
