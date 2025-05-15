@@ -99,7 +99,7 @@ ROCm為AMD Radeon系列的API與軟體，開發者可以利用這些工具調度
 
 ### **CPU, GPU and NPU**
 
-Ryzen AI的推論執行引擎是透過ONNX格式來識別模型的神經網路架構及運算參數，其中，。
+Ryzen AI Software的推論執行引擎是透過ONNX格式來識別模型的神經網路架構及運算參數，。
 
 Ryzen AI provides acceleration options for ONNX models using CPU, iGPU, and NPU, while other operations are executed on the Ryzen architecture. If you are interested in running your ONNX model on these chips, you can follow the instructions below to download this example repository and set up the necessary environment.
   
