@@ -156,7 +156,7 @@ GAIA 是 Ryzen AI的應用程式，讓使用者可以在本機上執行多種不
         <tr>
             <th>通用模式 (Generic Mode)</th>
             <td>
-                <strong>後端可以替換為 Ollama
+                <strong>OGA可以替換為 Ollama
             </td>
             <td>
                 <strong>只能使用OGA
