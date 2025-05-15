@@ -167,10 +167,5 @@ GAIA 是 Ryzen AI的應用程式，讓使用者可以在本機上執行多種不
             <td>安裝 GAIA 時會自動包含 Lemonade</td>
             <td>可獨立使用，也可搭配 GAIA 運作</td>
         </tr>
-        <tr>
-            <td colspan="2"><strong>開源性</strong></td>
-            <td>GAIA 是 AMD 提供的開源工具</td>
-            <td>Lemonade 由 ONNX TurnkeyML 提供，支援多種硬體架構</td>
-        </tr>
     </tbody>
 </table>
