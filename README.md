@@ -8,7 +8,7 @@ AMD Ryzen是一個專門為個人助理打造的AI Processor ，其最大的賣�
 
 <div align="center">
   
-:point_right:![AMD Ryzen™ AI Tutorials](https://www.youtube.com/playlist?list=PLYw1WVX5aNHABNAfottruTY8oX2eFlzmz)
+:point_right: ![AMD Ryzen™ AI Tutorials](https://www.youtube.com/playlist?list=PLYw1WVX5aNHABNAfottruTY8oX2eFlzmz)
 
 </div>
 
