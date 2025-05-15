@@ -117,3 +117,6 @@ ROCm為AMD Radeon系列的API與軟體，開發者可以利用這些工具調度
    > ```bash
    > $ python onnx_benchmark.py --onnx_model ./models/yolov8n.onnx --provider CPUExecutionProvider
    > ```
+
+## LLM
+GAIA 是 AMD 的 AI 應用程式，主要用來讓 Ryzen AI PC 進行本地 AI 模型運行，而 Lemonade 則是 GAIA 內部使用的 LLM 推論 SDK，也可以獨立使用，適合開發者透過 Python API 來使用 AI 模型。
