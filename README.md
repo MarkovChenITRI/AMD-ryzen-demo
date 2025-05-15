@@ -125,6 +125,7 @@ GAIA 是 Ryzen AI的應用程式，讓使用者可以在本機上執行多種不
     <thead>
         <tr>
             <th>項目</th>
+            <th></th>
             <th>GAIA</th>
             <th>Lemonade</th>
         </tr>
@@ -132,16 +133,19 @@ GAIA 是 Ryzen AI的應用程式，讓使用者可以在本機上執行多種不
     <tbody>
         <tr>
             <td><strong>用途</strong></td>
+            <th></th>
             <td>高階的 AI 代理任務</td>
             <td>LLM後端推論的API</td>
         </tr>
         <tr>
             <td><strong>運作方式</strong></td>
+            <th></th>
             <td>透過 <strong>UI</strong> 或 <strong>CLI</strong> 與 AI 互動</td>
             <td>支援 <strong>Python API</strong> 及 <strong>CLI</strong></td>
         </tr>
         <tr>
             <td><strong>硬體加速</strong></td>
+            <th></th>
             <td>
                 <strong>混合模式 (Hybrid Mode)：</strong> 適用於 Ryzen AI PC，使用 <strong>NPU + iGPU</strong> 來加速 AI 運算。<br>
                 <strong>NPU 模式 (NPU Mode)：</strong> 依賴 NPU 進行推論。<br>
@@ -155,11 +159,13 @@ GAIA 是 Ryzen AI的應用程式，讓使用者可以在本機上執行多種不
         </tr>
         <tr>
             <td><strong>安裝關係</strong></td>
+            <th></th>
             <td>安裝 GAIA 時會自動包含 Lemonade</td>
             <td>可獨立使用，也可搭配 GAIA 運作</td>
         </tr>
         <tr>
             <td><strong>開源性</strong></td>
+            <th></th>
             <td>GAIA 是 AMD 提供的開源工具</td>
             <td>Lemonade 由 ONNX TurnkeyML 提供，支援多種硬體架構</td>
         </tr>
