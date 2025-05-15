@@ -120,3 +120,40 @@ ROCm為AMD Radeon系列的API與軟體，開發者可以利用這些工具調度
 
 ## LLM
 GAIA 是 Ryzen AI的應用程式，讓使用者可以在本機上執行多種不同類型的 AI 代理任務，例如：聊天機器人、影片內容分析、文字生成...等。而 Lemonade 則是 GAIA推論LLM時所使用的低階API，適合開發者透過 Python API 來調用LLM模型。
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>項目</th>
+            <th>GAIA</th>
+            <th>Lemonade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>用途</strong></td>
+            <td>AMD 的本地 AI 應用程式，可在 Ryzen AI PC 上運行 LLM</td>
+            <td>ONNX TurnkeyML 提供的 LLM 推論 SDK</td>
+        </tr>
+        <tr>
+            <td><strong>運行方式</strong></td>
+            <td>透過 <strong>UI</strong> 或 <strong>CLI</strong> 與 AI 互動</td>
+            <td>支援 <strong>Python API</strong> 及 <strong>CLI</strong></td>
+        </tr>
+        <tr>
+            <td><strong>硬體加速</strong></td>
+            <td>利用 <strong>NPU + iGPU</strong> 提高 AI 推論速度</td>
+            <td>優化 CPU、iGPU 和 NPU 的 LLM 推論</td>
+        </tr>
+        <tr>
+            <td><strong>安裝關係</strong></td>
+            <td>安裝 GAIA 時會自動包含 Lemonade</td>
+            <td>可獨立使用，也可搭配 GAIA 運行</td>
+        </tr>
+        <tr>
+            <td><strong>開源性</strong></td>
+            <td>GAIA 是 AMD 提供的開源工具</td>
+            <td>Lemonade 由 ONNX TurnkeyML 提供，支援多種硬體架構</td>
+        </tr>
+    </tbody>
+</table>
