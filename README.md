@@ -99,7 +99,7 @@ ROCm為AMD Radeon系列的API與軟體，開發者可以利用這些工具調度
 
 ### **CPU, GPU and NPU**
 
-1. Ryzen AI處理器是透過ONNX解釋器來辨認模型的神經網路架構及運算參數，所以得先利用PyTorch、Tensorflow或JAX將設計好的模型輸出成ONNX格式(Ryzen AI Software 1.4.0建議輸出的opset版本為13)，才能將其部署到GPU及NPU上做推論。
+1. Ryzen AI處理器是透過ONNX解釋器來辨認模型的神經網路架構及運算參數，所以得先利用PyTorch、Tensorflow或JAX將設計好的模型輸出成ONNX格式(Ryzen AI Software 1.4.0建議輸出的opset版本為13)，才能將其委託到CPU, GPU及NPU上做推論。
    > 請先下載這個範例程式庫，在`./models`中已經有預先輸出一些`.onnx`檔案，您可以透過[Netron](https://github.com/lutzroeder/netron)或[Digest AI](https://github.com/onnx/digestai)來預覽模型的成分。
    > ```bash
    > $ git clone https://github.com/R300-AI/AMD-ryzen-demo.git && cd AMD-ryzen-demo
@@ -107,7 +107,8 @@ ROCm為AMD Radeon系列的API與軟體，開發者可以利用這些工具調度
    > $ pip install -r requirements.txt
    > ```
 
-2. 接下來展示如何使用原生的ONNX Runtime將模型委託至指定的處理器做加速推論。
+2. 如果要將模型部署到NPU，
+3. 接下來展示如何使用原生的ONNX Runtime將模型委託至指定的處理器做加速推論。
    > `--provider`的選項分別為`CPUExecutionProvider`、`DmlExecutionProvider`及`VitisAIExecutionProvider`
    > ```bash
    > $ python onnx_benchmark.py --onnx_model ./models/yolo11n.onnx --provider CPUExecutionProvider
