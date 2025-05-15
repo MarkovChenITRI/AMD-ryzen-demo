@@ -29,9 +29,7 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
   <tr>
     <td>Tools</td>
     <td colspan="4">Jupyter/ VS Code...etc</td>
-    <td colspan="3">
-      <a href="https://github.com/amd/gaia"><b>GAIA</b></a> 
-    </td>
+    <td colspan="3">GAIA</a></td>
   </tr>
   <tr>
     <td>Usage</td>
@@ -50,9 +48,7 @@ AMD Ryzen APU雖然已經搭載了完整的internal GPU(=iGPU)及NPU，但是這
     <td colspan="3">
       <a href="https://github.com/onnx/digestai"><b>ONNX with Digest AI</b></a> 
     </td>
-    <td colspan="2">
-      <a href="https://github.com/onnx/turnkeyml/blob/main/docs/lemonade/README.md"><b>Lemonade CLI</b></a> 
-    </td>
+    <td colspan="2">Lemonade CLI</td>
   </tr>
   <tr>
     <td>Software</td>
@@ -120,7 +116,10 @@ ROCm為AMD Radeon系列的API與軟體，開發者可以利用這些工具調度
 
 ## LLM Toolkits
 GAIA 是 Ryzen AI的應用程式，讓使用者可以在本機上執行多種不同類型的 AI 代理任務，例如：聊天機器人、影片內容分析、文字生成...等。而 Lemonade 則是 GAIA推論LLM時所使用的低階API，適合開發者透過 Python API 來調用LLM模型，主要差異如下：
+* [安裝GAIA](https://github.com/amd/gaia)
+* [安裝Lemonade](https://github.com/onnx/turnkeyml/blob/main/docs/lemonade/README.md)
 
+<div align="center">
 <table border="1">
     <thead>
         <tr>
@@ -160,3 +159,4 @@ GAIA 是 Ryzen AI的應用程式，讓使用者可以在本機上執行多種不
         </tr>
     </tbody>
 </table>
+</div>
