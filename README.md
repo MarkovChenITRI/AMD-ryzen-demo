@@ -107,13 +107,13 @@ ROCm為AMD Radeon系列的API與軟體，開發者可以利用這些工具調度
    > $ pip install -r requirements.txt
    > ```
 
-2. 如果要將模型部署到NPU，需要先透過Quark工具將ONNX檔進行量化。可以利用`onnx_quantizer.py`將指定的onnx檔編譯成
-   > 詳細的量化參數配置請參閱[官方文件](https://quark.docs.amd.com/latest/onnx/appendix_full_quant_config_features.html)
+2. 如果要將模型部署到NPU，需要先透過Quark工具將ONNX檔的運算子進行量化編譯，。
+   > 您可以透過編輯`onnx_quantizer.py`中的`quant_config`來變更量化方法，詳細的參數配置請參閱[官方文件](https://quark.docs.amd.com/latest/onnx/appendix_full_quant_config_features.html)
    > ```bash
    > $ python onnx_quantizer.py --onnx_model ./models/yolov8n.onnx
    > ```
 
-3. 接下來展示如何使用原生的ONNX Runtime將模型委託至指定的處理器做加速推論。
+4. 接下來展示如何使用原生的ONNX Runtime將模型委託至指定的處理器做加速推論。
    > `--provider`的選項分別為`CPUExecutionProvider`、`DmlExecutionProvider`及`VitisAIExecutionProvider`
    > ```bash
    > $ python onnx_benchmark.py --onnx_model ./models/yolov8n.onnx --provider CPUExecutionProvider
