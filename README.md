@@ -97,7 +97,7 @@ ROCm為AMD Radeon系列的API與軟體，開發者可以利用這些工具調度
 * 安裝深度學習框架 | [PyTorch](https://rocm.docs.amd.com/projects/install-on-linux/en/latest/install/3rd-party/pytorch-install.html), [Tensorflow](https://rocm.docs.amd.com/projects/install-on-linux/en/latest/install/3rd-party/tensorflow-install.html), [JAX](https://rocm.docs.amd.com/projects/install-on-linux/en/latest/install/3rd-party/jax-install.html)
 * 安裝程式開發工具     | [Jupyter (for Python)](https://jupyter.org/install), [VS Code](https://code.visualstudio.com/download)
 
-### **CPU, GPU and NPU**
+### **CPU, GPU**
 
 1. Ryzen AI處理器是透過ONNX解釋器來辨認模型的神經網路架構及運算參數，所以得先利用PyTorch、Tensorflow或JAX將設計好的模型輸出成ONNX格式(Ryzen AI Software 1.4.0建議輸出的opset版本為13)，才能將其部署到GPU及NPU上做推論。
    > 請先下載這個範例程式庫，在`./models`中已經有預先輸出一些`.onnx`檔案，您可以透過[Netron](https://github.com/lutzroeder/netron)或[Digest AI](https://github.com/onnx/digestai)來預覽模型的成分。
@@ -112,3 +112,5 @@ ROCm為AMD Radeon系列的API與軟體，開發者可以利用這些工具調度
    > ```bash
    > $ python onnx_benchmark.py --onnx_model ./models/yolo11n.onnx --provider CPUExecutionProvider
    > ```
+
+### **NPU**
