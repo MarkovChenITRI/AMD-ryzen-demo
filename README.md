@@ -148,40 +148,28 @@ GAIA 是 Ryzen AI的應用程式，讓使用者可以在本機上執行多種不
             <th>混合模式 (Hybrid Mode)</th>
             <td>
                 <strong>：</strong> 適用於 Ryzen AI PC，使用 <strong>NPU + iGPU</strong> 來加速 AI 運算。<br>
-                <strong>NPU 模式 (NPU Mode)：</strong> 依賴 NPU 進行推論。<br>
-                <strong>通用模式 (Generic Mode)：</strong> 可在任何 Windows PC 上運作，後端可以替換為 Ollama。
             </td>
             <td>
                 <strong>混合模式 (Hybrid Mode)：</strong> 適用於 Ryzen AI PC，使用 <strong>NPU + iGPU</strong> 來加速 AI 運算。<br>
-                <strong>NPU 模式 (NPU Mode)：</strong> 依賴 NPU 進行推論。<br>
-                <strong>通用模式 (Generic Mode)：</strong> 可在任何 Windows PC 上運作，後端可以替換為 Ollama。
             </td>
         </tr>
         <tr>
-            <td><strong>硬體加速</strong></td>
+            <td><strong></strong></td>
             <th>NPU 模式 (NPU Mode)</th>
             <td>
-                <strong>混合模式 (Hybrid Mode)：</strong> 適用於 Ryzen AI PC，使用 <strong>NPU + iGPU</strong> 來加速 AI 運算。<br>
                 <strong>：</strong> 依賴 NPU 進行推論。<br>
-                <strong>通用模式 (Generic Mode)：</strong> 可在任何 Windows PC 上運作，後端可以替換為 Ollama。
             </td>
             <td>
-                <strong>混合模式 (Hybrid Mode)：</strong> 適用於 Ryzen AI PC，使用 <strong>NPU + iGPU</strong> 來加速 AI 運算。<br>
                 <strong>NPU 模式 (NPU Mode)：</strong> 依賴 NPU 進行推論。<br>
-                <strong>：</strong> 可在任何 Windows PC 上運作，後端可以替換為 Ollama。
             </td>
         </tr>
         <tr>
-            <td><strong>硬體加速</strong></td>
+            <td><strong></strong></td>
             <th>通用模式 (Generic Mode)</th>
             <td>
-                <strong>混合模式 (Hybrid Mode)：</strong> 適用於 Ryzen AI PC，使用 <strong>NPU + iGPU</strong> 來加速 AI 運算。<br>
-                <strong>NPU 模式 (NPU Mode)：</strong> 依賴 NPU 進行推論。<br>
                 <strong>通用模式 (Generic Mode)：</strong> 可在任何 Windows PC 上運作，後端可以替換為 Ollama。
             </td>
             <td>
-                <strong>混合模式 (Hybrid Mode)：</strong> 適用於 Ryzen AI PC，使用 <strong>NPU + iGPU</strong> 來加速 AI 運算。<br>
-                <strong>NPU 模式 (NPU Mode)：</strong> 依賴 NPU 進行推論。<br>
                 <strong>通用模式 (Generic Mode)：</strong> 可在任何 Windows PC 上運作，後端可以替換為 Ollama。
             </td>
         </tr>
