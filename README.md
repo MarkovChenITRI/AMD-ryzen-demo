@@ -104,7 +104,6 @@ ROCm為AMD Radeon系列的API與軟體，開發者可以利用這些工具調度
    > ```bash
    > $ git clone https://github.com/R300-AI/AMD-ryzen-demo.git && cd AMD-ryzen-demo
    > $ conda activate ryzen-ai-1.4.0      # 這個環境會與Ryzen AI software一起被安裝到您的主機.
-   > $ pip install -r requirements.txt
    > ```
 
 2. 如果要將模型部署到NPU，您需要先透過Quark工具將ONNX檔中可量化的運算子編譯為NPU的操作指令。請注意，由於NPU僅支援少部分可平行化的運算子，所以其它基礎操作仍會保留在CPU上執行。
