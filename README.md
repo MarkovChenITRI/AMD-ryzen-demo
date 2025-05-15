@@ -106,7 +106,7 @@ ROCm為AMD Radeon系列的API與軟體，開發者可以利用這些工具調度
    > $ conda activate ryzen-ai-1.4.0      # 這個環境會與Ryzen AI software一起被安裝到您的主機.
    > ```
 
-2. 如果要將模型部署到NPU，您需要先透過Quark工具將ONNX檔中可量化的運算子編譯為NPU的操作指令。請注意，由於NPU僅支援少部分可平行化的運算子，所以其它基礎操作仍會保留在CPU上執行。
+2. 如果要將模型部署到NPU，您需要先透過Quark工具將ONNX檔中可量化的運算子編譯為NPU的操作指令。(請注意，由於NPU僅支援少部分可平行化的運算子，所以其它基礎操作仍會保留在CPU上執行)
    > 您可以透過編輯`onnx_quantizer.py`中的`quant_config`來變更量化方法，詳細的參數配置請參閱[官方文件]。(https://quark.docs.amd.com/latest/onnx/appendix_full_quant_config_features.html)。
    > ```bash
    > $ python onnx_quantizer.py --onnx_model ./models/yolov8n.onnx    # 編譯後的模型預設會輸出於<onnx_model>_quant.onnx
@@ -142,7 +142,12 @@ GAIA 是 Ryzen AI的應用程式，讓使用者可以在本機上執行多種不
         </tr>
         <tr>
             <td><strong>硬體加速</strong></td>
-            <td colspan="2">
+            <td>
+                <strong>混合模式 (Hybrid Mode)：</strong> 適用於 Ryzen AI PC，使用 <strong>NPU + iGPU</strong> 來加速 AI 運算。<br>
+                <strong>NPU 模式 (NPU Mode)：</strong> 依賴 NPU 進行推論。<br>
+                <strong>通用模式 (Generic Mode)：</strong> 可在任何 Windows PC 上運作，後端可以替換為 Ollama。
+            </td>
+            <td>
                 <strong>混合模式 (Hybrid Mode)：</strong> 適用於 Ryzen AI PC，使用 <strong>NPU + iGPU</strong> 來加速 AI 運算。<br>
                 <strong>NPU 模式 (NPU Mode)：</strong> 依賴 NPU 進行推論。<br>
                 <strong>通用模式 (Generic Mode)：</strong> 可在任何 Windows PC 上運作，後端可以替換為 Ollama。
