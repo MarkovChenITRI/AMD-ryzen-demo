@@ -143,21 +143,15 @@ GAIA 是 Ryzen AI的應用程式，讓使用者可以在本機上執行多種不
         <tr>
             <td rowspan="3"><strong>硬<br>體<br>加<br>速</strong></td>
             <th>混合模式 (Hybrid Mode)</th>
-            <td colspan="2">
-                <strong></strong>性能最佳, 使用OGA來混合調用<strong>NPU + iGPU</strong> 加速 LLM 運算<br>
-            </td>
+            <td colspan="2">性能最佳, 使用OGA來混合調用<strong>NPU + iGPU</strong> 加速 LLM 運算</td>
         </tr>
         <tr>
             <th>NPU 模式 (NPU Mode)</th>
-            <td colspan="2">
-                <strong></strong>能耗最佳, 使用OGA來調用<strong>NPU</strong> 加速 LLM 運算<br>
-            </td>
+            <td colspan="2">能耗最佳, 使用OGA來調用<strong>NPU</strong> 加速 LLM 運算</td>
         </tr>
         <tr>
             <th>通用模式 (Generic Mode)</th>
-            <td colspan="2">
-                <strong>在所有CPU上皆能使用，OGA可以替換為 Ollama
-            </td>
+            <td colspan="2">在所有CPU上皆能使用，OGA可以替換為 Ollama</td>
         </tr>
         <tr>
             <td colspan="2"><strong>安裝關係</strong></td>
