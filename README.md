@@ -154,7 +154,6 @@ GAIA 是 Ryzen AI的應用程式，讓使用者可以在本機上執行多種不
             </td>
         </tr>
         <tr>
-            <td><strong></strong></td>
             <th>NPU 模式 (NPU Mode)</th>
             <td>
                 <strong>：</strong> 依賴 NPU 進行推論。<br>
@@ -164,7 +163,6 @@ GAIA 是 Ryzen AI的應用程式，讓使用者可以在本機上執行多種不
             </td>
         </tr>
         <tr>
-            <td><strong></strong></td>
             <th>通用模式 (Generic Mode)</th>
             <td>
                 <strong>通用模式 (Generic Mode)：</strong> 可在任何 Windows PC 上運作，後端可以替換為 Ollama。
