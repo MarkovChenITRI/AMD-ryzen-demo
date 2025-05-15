@@ -115,9 +115,19 @@ ROCm為AMD Radeon系列的API與軟體，開發者可以利用這些工具調度
    > ```
 
 ## LLM Toolkits
-GAIA 是 Ryzen AI的應用程式，讓使用者可以在本機上執行多種不同類型的 AI 代理任務，例如：聊天機器人、影片內容分析、文字生成...等。而 Lemonade 則是 GAIA推論LLM時所使用的低階API，適合開發者透過 Python API 來調用LLM模型，主要差異如下：
-* [安裝GAIA](https://github.com/amd/gaia)
-* [安裝Lemonade](https://github.com/onnx/turnkeyml/blob/main/docs/lemonade/README.md)
+AMD LLM Toolkit 提供完整的本地大型語言模型 (LLM) 推論解決方案，涵蓋從高階應用到底層 API 的不同需求。主要包含兩個工具：
+
+- **GAIA**：Ryzen AI 官方應用程式，適合一般使用者，提供圖形介面 (UI) 與命令列 (CLI) 操作，能體驗各類 AI 代理任務（如聊天、影片分析、文字生成等）。
+- **Lemonade**：專為開發者設計的 LLM 推論 API，支援 Python 及 CLI，方便整合至自訂應用或自動化流程。
+
+兩者皆可充分發揮 Ryzen AI 平台的異質運算優勢，支援多種硬體加速模式，協助用戶根據需求選擇最佳化的推論效能與能耗表現。
+
+### 安裝資源
+
+- [GAIA 安裝說明](https://github.com/amd/gaia)
+- [Lemonade 安裝說明](https://github.com/onnx/turnkeyml/blob/main/docs/lemonade/README.md)
+
+> **注意**：安裝 GAIA 時會自動包含 Lemonade；Lemonade 也可獨立安裝或搭配 GAIA 使用。
 
 <div align="center">
 <table border="1">
