@@ -132,31 +132,25 @@ GAIA 是 Ryzen AI的應用程式，讓使用者可以在本機上執行多種不
     <tbody>
         <tr>
             <td colspan="2"><strong>用途</strong></td>
-            <td>高階的 AI 代理任務</td>
+            <td>高階的 LLM 代理任務</td>
             <td>LLM後端推論的API</td>
         </tr>
         <tr>
             <td colspan="2"><strong>運作方式</strong></td>
-            <td>透過 <strong>UI</strong> 或 <strong>CLI</strong> 與 AI 互動</td>
+            <td>透過 <strong>UI</strong> 或 <strong>CLI</strong> 與 LLM 互動</td>
             <td>支援 <strong>Python API</strong> 及 <strong>CLI</strong></td>
         </tr>
         <tr>
             <td rowspan="3"><strong>硬體加速</strong></td>
             <th>混合模式 (Hybrid Mode)</th>
-            <td>
-                <strong>：</strong> 適用於 Ryzen AI PC，使用 <strong>NPU + iGPU</strong> 來加速 AI 運算。<br>
-            </td>
-            <td>
-                <strong>混合模式 (Hybrid Mode)：</strong> 適用於 Ryzen AI PC，使用 <strong>NPU + iGPU</strong> 來加速 AI 運算。<br>
+            <td colspan="2">
+                <strong></strong>使用OGA來混合調用<strong>NPU + iGPU</strong> 加速 LLM 運算<br>
             </td>
         </tr>
         <tr>
             <th>NPU 模式 (NPU Mode)</th>
-            <td>
-                <strong>：</strong> 依賴 NPU 進行推論。<br>
-            </td>
-            <td>
-                <strong>NPU 模式 (NPU Mode)：</strong> 依賴 NPU 進行推論。<br>
+            <td colspan="2">
+                <strong></strong>使用OGA來調用<strong>NPU</strong> 加速 LLM 運算<br>
             </td>
         </tr>
         <tr>
