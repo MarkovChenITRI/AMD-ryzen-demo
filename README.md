@@ -107,7 +107,7 @@ ROCm為AMD Radeon系列的API與軟體，開發者可以利用這些工具調度
    > $ pip install -r requirements.txt
    > ```
 
-2. 接下來展示如何使用原生的ONNX Runtime委託指定的處理器做加速推論。
+2. 接下來展示如何使用原生的ONNX Runtime將模型委託至指定的處理器做加速推論。
    > `--provider`的選項分別為`CPUExecutionProvider`、`DmlExecutionProvider`及`VitisAIExecutionProvider`
    > ```bash
    > $ python onnx_benchmark.py --onnx_model ./models/yolo11n.onnx --provider CPUExecutionProvider
