@@ -103,17 +103,13 @@ ROCm為AMD Radeon系列的API與軟體，開發者可以利用這些工具調度
    > 請先下載這個範例程式庫，在`./models`中已經有預先輸出一些`.onnx`檔案，您可以透過[Netron](https://github.com/lutzroeder/netron)或[Digest AI](https://github.com/onnx/digestai)來預覽模型的成分。
    > ```bash
    > $ git clone https://github.com/R300-AI/AMD-ryzen-demo.git && cd AMD-ryzen-demo
-   > $ conda activate ryzen-ai-1.4.0      # 這個虛擬環境會與Ryzen AI software一起被安裝.
+   > $ conda activate ryzen-ai-1.4.0      # 這個環境會與Ryzen AI software一起被安裝到您的主機.
    > $ pip install -r requirements.txt
    > ```
 
 2. 
 
-  
-  ```bash
-  $ git clone https://github.com/R300-AI/AMD-ryzen-demo.git && cd AMD-ryzen-demo
 
-  ```
 
 ### ONNX Benchmarks
 
