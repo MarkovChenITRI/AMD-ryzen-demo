@@ -100,14 +100,14 @@ ROCm為AMD Radeon系列的API與軟體，開發者可以利用這些工具調度
 ### **CPU, GPU and NPU**
 
 1. Ryzen AI處理器是透過ONNX解釋器來辨認模型的神經網路架構及運算參數，所以得先將PyTorch、Tensorflow或JAX設計好的模型輸出成ONNX格式(建議輸出的opset版本為13)，才能將其委託到CPU, GPU及NPU上做推論。
-   > 請先下載這個範例程式庫，在`./models`中已經有預先輸出一些`.onnx`檔案，您可以透過[Netron](https://github.com/lutzroeder/netron)或[Digest AI](https://github.com/onnx/digestai)來預覽模型的成分。
+   > 請先下載這個範例程式庫，在`./models`中已經有預先輸出一些`.onnx`模型，您可以透過[Netron](https://github.com/lutzroeder/netron)或[Digest AI](https://github.com/onnx/digestai)來預覽檔案的成分。
    > ```bash
    > $ git clone https://github.com/R300-AI/AMD-ryzen-demo.git && cd AMD-ryzen-demo
    > $ conda activate ryzen-ai-1.4.0      # 這個環境會與Ryzen AI software一起被安裝到您的主機.
    > $ pip install -r requirements.txt
    > ```
 
-2. 如果要將模型部署到NPU，您需要先透過Quark工具將ONNX檔中可量化的運算子編譯為NPU的操作指令。請注意，這個步驟可能只會編譯部分的運算子，其它不支援的仍會保留在CPU上執行，
+2. 如果要將模型部署到NPU，您需要先透過Quark工具將ONNX檔中可量化的運算子編譯為NPU的操作指令。請注意，由於NPU僅支援少部分可平行化的運算子，所以其它基礎操作仍會保留在CPU上執行。
    > 您可以透過編輯`onnx_quantizer.py`中的`quant_config`來變更量化方法，詳細的參數配置請參閱[官方文件]。(https://quark.docs.amd.com/latest/onnx/appendix_full_quant_config_features.html)。
    > ```bash
    > $ python onnx_quantizer.py --onnx_model ./models/yolov8n.onnx
