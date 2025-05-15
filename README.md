@@ -144,7 +144,7 @@ GAIA 是 Ryzen AI的應用程式，讓使用者可以在本機上執行多種不
             <td>支援 <strong>Python API</strong> 及 <strong>CLI</strong></td>
         </tr>
         <tr>
-            <td><strong>硬體加速</strong></td>
+            <td colspan="3"><strong>硬體加速</strong></td>
             <th>混合模式 (Hybrid Mode)</th>
             <td>
                 <strong>：</strong> 適用於 Ryzen AI PC，使用 <strong>NPU + iGPU</strong> 來加速 AI 運算。<br>
